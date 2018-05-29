@@ -1,6 +1,6 @@
 .nav-container {
     background: #374050;
-    height: 100vh;
+    height: 100%;
     width: 15rem;
 }
 
@@ -17,12 +17,16 @@
     border-radius: 100%;
 }
 .name {
-    color: #8b95a5;
+    color: #8c94a7;
     text-align: center;
 }
 
 .down-arrow {
     width: .75rem;
     height: .5rem;
+}
+
+.nav-headers {
+    color: #8c94a7;
 }
 
