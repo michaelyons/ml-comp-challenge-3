@@ -1,0 +1,32 @@
+.nav-container {
+    background: #374050;
+    height: 100%;
+    width: 15rem;
+}
+
+.name-picture-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portrait {
+    margin-top: 3rem;
+    width: 50%;
+    height: 7em;
+    border-radius: 100%;
+}
+.name {
+    color: #8c94a7;
+    text-align: center;
+}
+
+.down-arrow {
+    width: .75rem;
+    height: .5rem;
+}
+
+.nav-headers {
+    color: #8c94a7;
+}
+
