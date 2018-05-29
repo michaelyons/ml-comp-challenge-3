@@ -1,3 +1,10 @@
-body {
-    background: blue;
+.nav-container {
+    background: #374050;
+    height: 100%;
+    width: 15%;
+}
+
+.name {
+    color: #f0ead6;
+    text-align: center;
 }
