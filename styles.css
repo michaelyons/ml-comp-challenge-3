@@ -35,6 +35,7 @@
 /* Styling for top search section */
 
 .search-container {
+    background-color: pink;
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
@@ -56,7 +57,16 @@
     height: 5rem;
 }
 
+/*Job title display section*/
+.job-title-display {
+    background-color: red;
+}
+
 /* Graphs */
+
+.graphs {
+    background-color: aqua;
+}
 
 /**
  * 1. The `reverse` animation direction plays the animation backwards
