@@ -1,9 +1,8 @@
-
 /* Styling for left navigation sidebar */
 
 .nav-container {
     background: #374050;
-    height: 100vh;
+    height: 100%;
     width: 15rem;
 }
 
@@ -118,11 +117,6 @@
   }
   
   /* Layout styles only, not needed for functionality */
-  html {
-    font-family: sans-serif;
-    padding-right: 1em;
-    padding-left: 1em;
-  }
   
   .grid {
     display: grid;
