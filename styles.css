@@ -1,6 +1,8 @@
+/* Styling for left navigation sidebar */
+
 .nav-container {
     background: #374050;
-    height: 100%;
+    height: 100vh;
     width: 15rem;
 }
 
@@ -30,3 +32,26 @@
     color: #8c94a7;
 }
 
+/* Styling for top search section */
+
+.search-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: auto;
+    height: 5rem; 
+}
+
+.hamburger-btn {
+    width: 5rem;
+    height: 5rem;
+}
+
+.search-input {
+    width: 30rem;
+}
+
+.top-right-btn {
+    width: 5rem;
+    height: 5rem;
+}
