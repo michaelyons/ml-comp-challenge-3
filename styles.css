@@ -41,6 +41,11 @@
     color: #8c94a7;
 }
 
+.nav-btn {
+    width: .5em;
+    height: .5em;
+}
+
 /* Styling for top search section */
 
 .search-container {
