@@ -1,16 +1,18 @@
+.page-container {
+    display: flex;
+}
+
 .wrapper {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-left: 14vw;
+    flex: 5;
 }
 /* Styling for left navigation sidebar */
 
 .nav-container {
     background: #374050;
-    position: fixed;
-    height: 100vw;
-    width: 14vw;
+    flex: 1;
 }
 
 .name-picture-container {
