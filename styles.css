@@ -39,12 +39,18 @@
 }
 
 .nav-btn {
-    width: .5em;
-    height: .5em;
+    width: 1em;
+    height: 1em;
+    padding-right: .4em;
+}
+
+.main-nav {
+    border-bottom: #14a4fa;
 }
 
 ul {
     list-style-type: none;
+    padding-left: 2em;
 }
 
 /* Styling for top search section */
@@ -76,7 +82,7 @@ ul {
 }
 
 .search-input {
-    width: 60em;
+    width: 75em;
 }
 
 .search-btn-right {
