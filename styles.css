@@ -64,15 +64,25 @@
     height: 1.7rem;
 }
 
+.search-btn-left:hover {
+    background-color: #14a4fa;
+    cursor: pointer;
+}
+
 .search-input {
     width: 60em;
 }
 
-.search-btn {
+.search-btn-right {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 7%;
+}
+
+.search-btn-right:hover {
+    background-color: #14a4fa;
+    cursor: pointer;
 }
 
 .top-right-btn {
@@ -186,7 +196,7 @@
 
 /* MEDIA QUERIES */
 
-@media (max-width: 1300px) {
+@media (max-width: 900px) {
      .wrapper {
         margin-left: 0;
     }
