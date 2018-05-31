@@ -43,6 +43,10 @@
     height: .5em;
 }
 
+ul {
+    list-style-type: none;
+}
+
 /* Styling for top search section */
 
 .search-container {
