@@ -13,6 +13,7 @@
 .nav-container {
     background: #374050;
     flex: 1;
+    color: #8c94a7;
 }
 
 .name-picture-container {
@@ -35,10 +36,6 @@
 .down-arrow {
     width: .75em;
     height: .5em;
-}
-
-.nav-headers {
-    color: #8c94a7;
 }
 
 .nav-btn {
@@ -112,6 +109,9 @@
     background-color: #ecf1f6;
     width: 86vw;
     height: 30em;
+}
+.circle-chart__circle {
+    width: 10rem;
 }
 
 .bar-graph {
