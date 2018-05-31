@@ -79,7 +79,7 @@
 .graph-container {
     background-color: #ecf1f6;
     width: 86vw;
-    height: 40rem;
+    height: 30em;
 }
 
 /**
@@ -132,16 +132,16 @@
   
   /* Layout styles only, not needed for functionality */
   
-.grid {
+.graph-grid {
     display: grid;
     grid-column-gap: 1em;
     grid-row-gap: 1em;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
 }
   
 @media (min-width: 31em) {
-    .grid {
-      grid-template-columns: repeat(3, 1fr);
+    .graph-grid {
+      grid-template-columns: repeat(4, 1fr);
     }
 }
 
