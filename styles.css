@@ -1,16 +1,19 @@
+.page-container {
+    display: flex;
+}
+
 .wrapper {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-left: 14vw;
+    flex: 5;
 }
 /* Styling for left navigation sidebar */
 
 .nav-container {
     background: #374050;
-    position: fixed;
-    height: 100vh;
-    width: 14vw;
+    flex: 1;
+    color: #8c94a7;
 }
 
 .name-picture-container {
@@ -20,9 +23,9 @@
 }
 
 .portrait {
-    margin-top: 3em;
+    margin-top: 2em;
     width: 50%;
-    height: 7em;
+    height: 5em;
     border-radius: 100%;
 }
 .name {
@@ -35,14 +38,15 @@
     height: .5em;
 }
 
-.nav-headers {
-    color: #8c94a7;
+.nav-btn {
+    width: .5em;
+    height: .5em;
 }
 
 /* Styling for top search section */
 
 .search-container {
-    background-color: pink;
+    background-color: blue;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -50,18 +54,42 @@
     height: 5rem; 
 }
 
+.search-btn-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7%;
+}
+
 .hamburger-btn {
-    width: 5em;
-    height: 5em;
+    width: 1.7rem;
+    height: 1.7rem;
+}
+
+.search-btn-left:hover {
+    background-color: #14a4fa;
+    cursor: pointer;
 }
 
 .search-input {
-    width: 58em;
+    width: 60em;
+}
+
+.search-btn-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7%;
+}
+
+.search-btn-right:hover {
+    background-color: #14a4fa;
+    cursor: pointer;
 }
 
 .top-right-btn {
-    width: 5em;
-    height: 5em;
+    width: 1.7rem;
+    height: 1.7rem;
 }
 
 /*Job title display section*/
@@ -81,6 +109,9 @@
     background-color: #ecf1f6;
     width: 86vw;
     height: 30em;
+}
+.circle-chart__circle {
+    width: 10rem;
 }
 
 .bar-graph {
@@ -155,32 +186,36 @@
   /* Job Description Section */
 
 .job-description-container {
-    background-color: green;
+    background-color: #ecf1f6;
     width: 56vw;
-    height: 50rem;
+    height: 52rem;
 }
 
 /* Links Section */
 
 .links-container {
-    background-color: wheat;
+    background-color: #ecf1f6;
     width: 30vw;
-    height: 50rem;
+    height: 52rem;
 }
 
 /* MEDIA QUERIES */
 
-@media (max-width: 925px) {
+@media (max-width: 900px) {
+     .wrapper {
+        margin-left: 0;
+    }
+    
     .nav-container {
         display: none;
     }
 
-    .wrapper {
-        margin-left: 0;
-    }
-
     .search-container {
         width: 100vw; 
+    }
+
+    .search-input {
+        width: 80em;
     }
 
     .job-title-container {
@@ -198,4 +233,5 @@
     .links-container {
         width: 37vw;
     }
+    
 }
