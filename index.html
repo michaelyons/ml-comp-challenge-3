@@ -11,176 +11,192 @@
         crossorigin="anonymous">
     <title>Static Comp 3</title>
 </head>
+
 <body>
     
-    <section class="nav-container">
-        <header>
-            <div class="name-picture-container">
-                <img class="portrait" src="/images/comp-3-portrait.jpg">
+        <section class="nav-container">
+            <header>
+                <div class="name-picture-container">
+                    <img class="portrait" src="/images/comp-3-portrait.jpg">
+                </div>
+                <h4 class="name">Newton Barley
+                    <img class="down-arrow" src="images/arrow-down-sign-to-navigate.svg">
+                </h4>
+            </header>
+            <nav class="main-nav">
+                <h5 class="nav-headers">Main</h5>
+                <p>HOME</p>
+                <p>JOBS</p>
+                <p>RESUME</p>
+                <p>TASKS</p>
+                <p>CALENDER</p>
+            </nav>
+            <nav class="admin-nav">
+                <h5 class="nav-headers">Admin</h5>
+                <p>USERS</p>
+                <p>LOCATIONS</p>
+                <p>WORKFLOWS</p>
+                <p>JOB BOARDS</p>
+                <p>SOCIAL</p>
+            </nav>
+            <nav class="categories-nav">
+                <h5 class="nav-headers">Categories</h5>
+                <p class="yellow-checkbox"></p>
+                <p>Administrative</p>
+                <p class="blue-checkbox"></p>
+                <p>Design</p>
+                <p class="red-checkbox"></p>
+                <p>Executive</p>
+                <p class="green-checkbox"></p>
+                <p>Human Resources</p>
+            </nav>
+        </section>
+
+    <section class="wrapper">
+        <section class="search-container">
+            <button class="nav-popout-left">
+                <img class="hamburger-btn" src="images/menu-button.svg">
+            </button>
+            <input type="search" id="main-search" class="search-input" placeholder="Search for a job, task or resume">
+            <button class="search-btn1">
+                <img class="top-right-btn" src="images/menu-button.svg">
+            </button>
+            <button class="search-btn2">
+                <img class="top-right-btn" src="images/menu-button.svg">
+            </button>
+            <button class="search-btn3">
+                <img class="top-right-btn" src="images/menu-button.svg">
+            </button>
+        </section>
+
+        <section class="job-title-container">
+            <h1>Customer Service Representative</h1>
+            <p>
+                <img src="">San Francisco, CA</p>
+            <a href="url">Preview this post</a>
+            <button class="open-btn">
+                <img scr="">Open</button>
+            <button class="job-btns">
+                <img scr="">
+            </button>
+            <button class="job-btns">
+                <img scr="">
+            </button>
+            <button class="job-btns">
+                <img scr="">
+            </button>
+            <p>SUMMARY</p>
+            <P>APPLICANTS</P>
+            <p>JOB BOARD</p>
+            <P>INTERVIEW</P>
+            <P>ACTIVITY</P>
+            <p>BROADCAST</p>
+            <P>NOTIFICATIONS</P>
+        </section>
+
+        <section class="graph-container">
+            <div class="grid">
+                <section>
+                    <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+                        <circle class="circle-chart__background" stroke="#efefef" stroke-width="2" fill="none" cx="16.91549431" cy="16.91549431"
+                            r="15.91549431" />
+                        <circle class="circle-chart__circle" stroke="#00acc1" stroke-width="2" stroke-dasharray="82,100" stroke-linecap="round" fill="none"
+                            cx="16.91549431" cy="16.91549431" r="15.91549431" />
+                        <g class="circle-chart__info">
+                            <text class="circle-chart__percent" x="16.91549431" y="15.5" alignment-baseline="central" text-anchor="middle" font-size="8">3,154</text>
+                            <text class="circle-chart__subline" x="16.91549431" y="20.5" alignment-baseline="central" text-anchor="middle" font-size="2">APPLICANTS</text>
+                        </g>
+                    </svg>
+                </section>
+                <section>
+                    <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+                        <circle class="circle-chart__background" stroke="#efefef" stroke-width="2" fill="none" cx="16.91549431" cy="16.91549431"
+                            r="15.91549431" />
+                        <circle class="circle-chart__circle circle-chart__circle--negative" stroke="#00acc1" stroke-width="2" stroke-dasharray="38,100"
+                            stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
+                        <g class="circle-chart__info">
+                            <text class="circle-chart__percent" x="16.91549431" y="15.5" alignment-baseline="central" text-anchor="middle" font-size="8">1,546</text>
+                            <text class="circle-chart__subline" x="16.91549431" y="20.5" alignment-baseline="central" text-anchor="middle" font-size="2">INTERVIEWS</text>
+                        </g>
+                    </svg>
+                </section>
+                <section>
+                    <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+                        <circle class="circle-chart__background" stroke="#efefef" stroke-width="2" fill="none" cx="16.91549431" cy="16.91549431"
+                            r="15.91549431" />
+                        <circle class="circle-chart__circle circle-chart__circle--negative" stroke="#00acc1" stroke-width="2" stroke-dasharray="20,100"
+                            stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
+                        <g class="circle-chart__info">
+                            <text class="circle-chart__percent" x="16.91549431" y="15.5" alignment-baseline="central" text-anchor="middle" font-size="8">912</text>
+                            <text class="circle-chart__subline" x="16.91549431" y="20.5" alignment-baseline="central" text-anchor="middle" font-size="2">FORWARDS</text>
+                        </g>
+                    </svg>
+                </section>
             </div>
-            <h4 class="name">Newton Barley
-                <img class="down-arrow" src="images/arrow-down-sign-to-navigate.svg">
-            </h4>
-        </header>
-        <nav class="main-nav">
-            <h5 class="nav-headers">Main</h5>
-            <p>HOME</p>
-            <p>JOBS</p>
-            <p>RESUME</p>
-            <p>TASKS</p>
-            <p>CALENDER</p>
-        </nav>
-        <nav class="admin-nav">
-            <h5 class="nav-headers">Admin</h5>
-            <p>USERS</p>
-            <p>LOCATIONS</p>
-            <p>WORKFLOWS</p>
-            <p>JOB BOARDS</p>
-            <p>SOCIAL</p>
-        </nav>
-        <nav class="categories-nav">
-            <h5 class="nav-headers">Categories</h5>
-            <p class="yellow-checkbox"></p>
-            <p>Administrative</p>
-            <p class="blue-checkbox"></p>
-            <p>Design</p>
-            <p class="red-checkbox"></p>
-            <p>Executive</p>
-            <p class="green-checkbox"></p>
-            <p>Human Resources</p>
-        </nav>
+
+            <img class="bar-graph" src="images/bar-graph.png">
+            <button>TOTALS - Out of 5,231 views</button>
+            <button>APPLICANTS/DAY</button>
+
+        </section>
+
+        <section class="job-description-container">
+            <h6>JOB DESCRIPTION</h6>
+            <button>EDIT</button>
+
+            <h6>POSITION TITLE</h6>
+            <p>Customer Service Representative</p>
+
+            <h6>LOCATION</h6>
+            <p>San Francisco, CA</p>
+
+            <h6>EMPLOYMENT TYPE</h6>
+            <p>Full-time</p>
+
+            <h6>EXPERIENCE</h6>
+            <p>Mid-level</p>
+
+            <h6>STATUS</h6>
+            <p>Open</p>
+
+            <h6>DESCRIPTION</h6>
+            <p>Godfather ipsum dolor sit amet. It's a Sicilian message. It means Luca Brasi sleeps with the fishes. It's not
+                personal. It's business. You can act like a man! When they come... they come at what you love. Never let
+                anyone know what you are thinking.</p>
+
+            <h6>HIRING LEAD</h6>
+            <div class="name-picture-container2">
+                <img class="portrait2" src="#">
+            </div>
+            <p>Tom Tizzy</p>
+
+            <h6>APPROVED SALARY</h6>
+            <p>$58,000</p>
+        </section>
+
+        <section class="links-container">
+            <button>Post to Facebook</button>
+            <button>Tweet this Job</button>
+            <button>Post to LinkedIn</button>
+
+            <h4>Link to this Job</h4>
+            <p>Godfather ipsum dolor sit amet. Never let anyone know what you are thinking. That's my family Kay, that's not
+                me. Your enemies always get strong on what you leave behind.</p>
+            <input type="search" id="job-search" class="side-search-input" placeholder="http://cheeseburgers/are/like/a/metaphor/for/life">
+            <button>Copy</button>
+
+            <h4>Use the Button Widget</h4>
+            <p>Godfather ipsum dolor sit amet. Never let anyone know what you are thinking. That's my family Kay, that's not
+                me. Your enemies always get strong on what you leave behind.</p>
+            <input type="search" id="job-search" class="side-search-input" placeholder="http://in/sicily/women/are/more/dangerous/than/shotguns">
+            <button>Copy</button>
+
+            <h4>Link to this Job</h4>
+            <p>Godfather ipsum dolor sit amet. Never let anyone know what you are thinking. That's my family Kay, that's not
+                me. Your enemies always get strong on what you leave behind.</p>
+            <input type="search" id="job-search" class="side-search-input" placeholder="michaelcorleone@gmail.com">
+        </section>
     </section>
-
-    <section class="search-container">
-        <button class="nav-popout-left">
-            <img class="hamburger-btn" src="images/menu-button.svg">
-        </button>
-        <input type="search" id="main-search" class="search-input" placeholder="Search for a job, task or resume">
-        <button class="search-btn1">
-            <img class="top-right-btn" src="images/menu-button.svg">
-        </button>
-        <button class="search-btn2">
-            <img class="top-right-btn" src="images/menu-button.svg">
-        </button>
-        <button class="search-btn3">
-            <img class="top-right-btn" src="images/menu-button.svg">
-        </button>
-    </section>
-
-    <section class="job-title-container">
-        <h1>Customer Service Representative</h1>
-        <p><img src="">San Francisco, CA</p>
-        <a href="url">Preview this post</a>
-        <button class="open-btn"><img scr="">Open</button>
-        <button class="job-btns"><img scr=""></button>
-        <button class="job-btns"><img scr=""></button>
-        <button class="job-btns"><img scr=""></button>
-        <p>SUMMARY</p>
-        <P>APPLICANTS</P>
-        <p>JOB BOARD</p>
-        <P>INTERVIEW</P>
-        <P>ACTIVITY</P>
-        <p>BROADCAST</p>
-        <P>NOTIFICATIONS</P>
-    </section>
-
-    <section class="graph-container">
-        <div class="grid">
-            <section>
-                <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="200" height="200" xmlns="http://www.w3.org/2000/svg">
-                    <circle class="circle-chart__background" stroke="#efefef" stroke-width="2" fill="none" cx="16.91549431" cy="16.91549431"
-                        r="15.91549431" />
-                    <circle class="circle-chart__circle" stroke="#00acc1" stroke-width="2" stroke-dasharray="82,100" stroke-linecap="round" fill="none"
-                        cx="16.91549431" cy="16.91549431" r="15.91549431" />
-                    <g class="circle-chart__info">
-                        <text class="circle-chart__percent" x="16.91549431" y="15.5" alignment-baseline="central" text-anchor="middle" font-size="8">3,154</text>
-                        <text class="circle-chart__subline" x="16.91549431" y="20.5" alignment-baseline="central" text-anchor="middle" font-size="2">APPLICANTS</text>
-                    </g>
-                </svg>
-            </section>
-            <section>
-                <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="200" height="200" xmlns="http://www.w3.org/2000/svg">
-                    <circle class="circle-chart__background" stroke="#efefef" stroke-width="2" fill="none" cx="16.91549431" cy="16.91549431"
-                        r="15.91549431" />
-                    <circle class="circle-chart__circle circle-chart__circle--negative" stroke="#00acc1" stroke-width="2" stroke-dasharray="38,100"
-                        stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
-                    <g class="circle-chart__info">
-                        <text class="circle-chart__percent" x="16.91549431" y="15.5" alignment-baseline="central" text-anchor="middle" font-size="8">1,546</text>
-                        <text class="circle-chart__subline" x="16.91549431" y="20.5" alignment-baseline="central" text-anchor="middle" font-size="2">INTERVIEWS</text>
-                    </g>
-                </svg>
-            </section>
-            <section>
-                <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="200" height="200" xmlns="http://www.w3.org/2000/svg">
-                    <circle class="circle-chart__background" stroke="#efefef" stroke-width="2" fill="none" cx="16.91549431" cy="16.91549431"
-                        r="15.91549431" />
-                    <circle class="circle-chart__circle circle-chart__circle--negative" stroke="#00acc1" stroke-width="2" stroke-dasharray="20,100"
-                        stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
-                    <g class="circle-chart__info">
-                        <text class="circle-chart__percent" x="16.91549431" y="15.5" alignment-baseline="central" text-anchor="middle" font-size="8">912</text>
-                        <text class="circle-chart__subline" x="16.91549431" y="20.5" alignment-baseline="central" text-anchor="middle" font-size="2">FORWARDS</text>
-                    </g>
-                </svg>
-            </section>
-        </div>
-        
-        <img class="bar-graph" src="images/bar-graph.png">
-        <button>TOTALS - Out of 5,231 views</button>
-        <button>APPLICANTS/DAY</button>
-
-    </section>
-
-    <section class="job-description-container">
-        <h6>JOB DESCRIPTION</h6>
-        <button>EDIT</button>
-
-        <h6>POSITION TITLE</h6>
-        <p>Customer Service Representative</p>
-
-        <h6>LOCATION</h6>
-        <p>San Francisco, CA</p>
-
-        <h6>EMPLOYMENT TYPE</h6>
-        <p>Full-time</p>
-
-        <h6>EXPERIENCE</h6>
-        <p>Mid-level</p>
-
-        <h6>STATUS</h6>
-        <p>Open</p>
-
-        <h6>DESCRIPTION</h6>
-        <p>Godfather ipsum dolor sit amet. It's a Sicilian message. It means Luca Brasi sleeps with the fishes. It's not personal. It's business. You can act like a man! When they come... they come at what you love. Never let anyone know what you are thinking.</p>
-
-        <h6>HIRING LEAD</h6>
-        <div class="name-picture-container2">
-            <img class="portrait2" src="#">
-        </div>
-        <p>Tom Tizzy</p>
-
-        <h6>APPROVED SALARY</h6>
-        <p>$58,000</p>
-    </section>
-
-    <section class="links-container">
-        <button>Post to Facebook</button>
-        <button>Tweet this Job</button>
-        <button>Post to LinkedIn</button>
-        
-        <h4>Link to this Job</h4>
-        <p>Godfather ipsum dolor sit amet. Never let anyone know what you are thinking. That's my family Kay, that's not me. Your enemies always get strong on what you leave behind.</p>
-        <input type="search" id="job-search" class="side-search-input" placeholder="http://cheeseburgers/are/like/a/metaphor/for/life">
-        <button>Copy</button>
-
-        <h4>Use the Button Widget</h4>
-        <p>Godfather ipsum dolor sit amet. Never let anyone know what you are thinking. That's my family Kay, that's not me. Your enemies always get strong on what you leave behind.</p>
-        <input type="search" id="job-search" class="side-search-input" placeholder="http://in/sicily/women/are/more/dangerous/than/shotguns">
-        <button>Copy</button>
-
-        <h4>Link to this Job</h4>
-        <p>Godfather ipsum dolor sit amet. Never let anyone know what you are thinking. That's my family Kay, that's not me. Your enemies always get strong on what you leave behind.</p>
-        <input type="search" id="job-search" class="side-search-input" placeholder="michaelcorleone@gmail.com">
-    </section>
-
 </body>
+
 </html>
