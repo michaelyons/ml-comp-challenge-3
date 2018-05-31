@@ -44,7 +44,7 @@
 /* Styling for top search section */
 
 .search-container {
-    background-color: pink;
+    background-color: blue;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -52,18 +52,32 @@
     height: 5rem; 
 }
 
+.search-btn-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7%;
+}
+
 .hamburger-btn {
-    width: 5em;
-    height: 5em;
+    width: 1.7rem;
+    height: 1.7rem;
 }
 
 .search-input {
-    width: 55em;
+    width: 60em;
+}
+
+.search-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7%;
 }
 
 .top-right-btn {
-    width: 5em;
-    height: 5em;
+    width: 1.7rem;
+    height: 1.7rem;
 }
 
 /*Job title display section*/
@@ -172,17 +186,21 @@
 
 /* MEDIA QUERIES */
 
-@media (max-width: 999px) {
+@media (max-width: 1300px) {
+     .wrapper {
+        margin-left: 0;
+    }
+    
     .nav-container {
         display: none;
     }
 
-    .wrapper {
-        margin-left: 0;
-    }
-
     .search-container {
         width: 100vw; 
+    }
+
+    .search-input {
+        width: 80em;
     }
 
     .job-title-container {
@@ -200,4 +218,5 @@
     .links-container {
         width: 37vw;
     }
+    
 }
