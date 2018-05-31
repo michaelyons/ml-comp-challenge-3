@@ -27,7 +27,7 @@
 .portrait {
     margin-top: 2em;
     width: 50%;
-    height: 5em;
+    height: 9em;
     border-radius: 100%;
 }
 .name {
@@ -44,6 +44,18 @@
     width: 1em;
     height: 1em;
     padding-right: .4em;
+}
+
+.main-nav {
+    border-top: solid;
+    border-top-color: #2c3749;
+    border-bottom: solid;
+    border-bottom-color: #2c3749;
+}
+
+.admin-nav {
+    border-bottom: solid;
+    border-bottom-color: #2c3749;
 }
 
 ul {
