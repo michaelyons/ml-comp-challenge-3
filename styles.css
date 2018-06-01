@@ -58,7 +58,7 @@
     border-bottom-color: #2c3749;
 }
 
-ul {
+.leftside-nav-list {
     list-style-type: none;
     padding-left: 2em;
 }
@@ -130,6 +130,43 @@ li {
     flex-direction: column;
     width: 86vw;
     height: 20rem;
+}
+
+.location-icon {
+    width: 1rem;
+    height: 1rem;
+}
+
+.main-page-nav {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.open-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30%;
+    width: 4rem;
+    height: 4rem;
+}
+
+.green-dot {
+    width: 1rem;
+}
+
+.job-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+}
+
+.job-btns-icon {
+    width: 1rem;
 }
 
 /* Graphs */
