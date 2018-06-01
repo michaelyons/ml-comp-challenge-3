@@ -148,8 +148,12 @@ li {
 }
 
 .job-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 50%;
-    width: 2rem;
+    width: 4rem;
+    height: 4rem;
 }
 
 .job-btns-icon {
