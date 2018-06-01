@@ -147,6 +147,19 @@ li {
     list-style-type: none;
 }
 
+.open-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30%;
+    width: 4rem;
+    height: 4rem;
+}
+
+.green-dot {
+    width: 1rem;
+}
+
 .job-btns {
     display: flex;
     justify-content: center;
