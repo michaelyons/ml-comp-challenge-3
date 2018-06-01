@@ -142,7 +142,9 @@ li {
     flex-direction: row;
     list-style-type: none;
 }
-
+.main-page-nav li {
+    padding-right: 1em;
+}
 .open-btn {
     display: flex;
     justify-content: center;
