@@ -14,6 +14,8 @@
     background: #374050;
     flex: 1;
     color: #8c94a7;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: .75em;
 }
 
 .name-picture-container {
@@ -25,7 +27,7 @@
 .portrait {
     margin-top: 2em;
     width: 50%;
-    height: 5em;
+    height: 9em;
     border-radius: 100%;
 }
 .name {
@@ -39,8 +41,30 @@
 }
 
 .nav-btn {
-    width: .5em;
-    height: .5em;
+    width: 1em;
+    height: 1em;
+    padding-right: .4em;
+}
+
+.main-nav {
+    border-top: solid;
+    border-top-color: #2c3749;
+    border-bottom: solid;
+    border-bottom-color: #2c3749;
+}
+
+.admin-nav {
+    border-bottom: solid;
+    border-bottom-color: #2c3749;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 2em;
+}
+
+li {
+    padding-bottom: 1em;
 }
 
 /* Styling for top search section */
@@ -72,7 +96,11 @@
 }
 
 .search-input {
-    width: 60em;
+    width: 75em;
+    background-image: url(/images/search.svg);
+    background-repeat: no-repeat;
+    background-size: 1em;
+    background-position: 1em;
 }
 
 .search-btn-right {
@@ -201,7 +229,7 @@
 
 /* MEDIA QUERIES */
 
-@media (max-width: 900px) {
+@media (max-width: 950px) {
      .wrapper {
         margin-left: 0;
     }
