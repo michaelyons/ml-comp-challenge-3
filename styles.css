@@ -27,7 +27,7 @@
 .portrait {
     margin-top: 2em;
     width: 50%;
-    height: 9em;
+    height: 5rem;
     border-radius: 100%;
 }
 .name {
@@ -75,7 +75,7 @@ li {
     justify-content: space-between;
     flex-direction: row;
     width: 86vw;
-    height: 5rem; 
+    height: 4rem; 
 }
 
 .search-btn-left {
@@ -128,8 +128,9 @@ li {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 86vw;
-    height: 20rem;
+    height: 15rem;
 }
 
 .location-icon {
