@@ -114,7 +114,7 @@ li {
 }
 
 .search-input {
-    width: 75em;
+    width: 88rem;
     background-image: url(/images/search.svg);
     background-repeat: no-repeat;
     background-size: 1em;
@@ -226,6 +226,8 @@ a {
     cursor: pointer;
     font-size: .8rem;
     font-weight: bold;
+    -moz-border-radius:28px;
+	-webkit-border-radius:28px;
 }
 
 .green-dot {
@@ -324,6 +326,9 @@ a {
     font-size: .75rem;
     font-weight: bold;
     color: #6e7179;
+    cursor: pointer;
+    -moz-border-radius:28px;
+	-webkit-border-radius:28px;
 }
 
 .applicants-btn {
@@ -333,6 +338,9 @@ a {
     font-size: .75rem;
     font-weight: bold;
     color: #6e7179;
+    cursor: pointer;
+    -moz-border-radius:28px;
+	-webkit-border-radius:28px;
 }
   /* Job Description Section */
 
