@@ -33,6 +33,7 @@
 .name {
     color: #8c94a7;
     text-align: center;
+    cursor: pointer;
 }
 
 .down-arrow {
@@ -44,6 +45,11 @@
     width: 1em;
     height: 1em;
     padding-right: .4em;
+    cursor: pointer;
+}
+
+.nav-btn:hover {
+    color: #e1e8ef;
 }
 
 .main-nav {
@@ -63,8 +69,19 @@
     padding-left: 2em;
 }
 
+.leftside-nav-list li:hover {
+    border-left: solid;
+    border-left-color: #15adf8;
+    color: #e1e8ef;
+}
+
 li {
     padding-bottom: 1em;
+    cursor: pointer;
+}
+
+.categories-nav li:hover {
+    border: none;
 }
 
 /* Styling for top search section */
@@ -124,7 +141,7 @@ li {
 /*Job title display section*/
 
 .job-title-container {
-    background-color: red;
+    background-color:#ffffff;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
@@ -133,11 +150,17 @@ li {
     width: 86vw;
     height: 15rem;
 }
+
+a {
+    color: #63b5e1;
+}
+
 .job-header-and-btns {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+
 .job-title-header {
     display: flex;
     flex-direction: column;
@@ -146,17 +169,27 @@ li {
 .location-icon {
     width: 1rem;
     height: 1rem;
+    cursor: pointer;
 }
 
 .job-title-btns {
     display: flex;
     flex-direction: row;
 }
+
 .job-title-nav {
     display: flex;
     flex-direction: row;
     list-style-type: none;
+    cursor: pointer;
 }
+
+.job-title-nav li:hover {
+    font-weight: bold;
+    border-bottom: solid;
+    border-bottom-color: #42b2f1;
+}
+
 .job-title-nav li {
     padding-right: 2.5em;
 }
@@ -167,6 +200,7 @@ li {
     border-radius: 30%;
     width: 4rem;
     height: 4rem;
+    cursor: pointer;
 }
 
 .green-dot {
@@ -180,6 +214,7 @@ li {
     border-radius: 50%;
     width: 4rem;
     height: 4rem;
+    cursor: pointer;
 }
 
 .job-btns-icon {
