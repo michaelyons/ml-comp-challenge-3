@@ -12,10 +12,11 @@
 
 .nav-container {
     background: #374050;
-    flex: 1;
     color: #8c94a7;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1em;
+    min-width: 10rem;
+    width: 10rem;
 }
 
 .name-picture-container {
