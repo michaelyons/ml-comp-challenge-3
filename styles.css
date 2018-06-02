@@ -129,6 +129,7 @@ li {
     justify-content: flex-start;
     flex-direction: column;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #5a595f;
     width: 86vw;
     height: 15rem;
 }
@@ -174,14 +175,21 @@ li {
 
 /* Graphs */
 
+.graph-grid {
+    width: 5em;
+}
+
 .graph-container {
     background-color: #ecf1f6;
     width: 86vw;
-    height: 30em;
+    height: 20rem;
 }
+
 .circle-chart__circle {
-    width: 10rem;
+    width: 5rem;
 }
+
+
 
 .bar-graph {
     width: 15em;
