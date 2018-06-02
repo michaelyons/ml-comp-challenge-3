@@ -223,6 +223,7 @@ a {
     border-radius: 50%;
     width: 6rem;
     height: 2rem;
+    padding: 0;
     cursor: pointer;
     font-size: .8rem;
     font-weight: bold;
@@ -243,6 +244,7 @@ a {
     width: 1.5rem;
     height: 1.5rem;
     cursor: pointer;
+    padding: 0;
 }
 
 .job-btns-icon {
@@ -254,6 +256,7 @@ a {
 .graph-container {
     display: flex;
     flex-direction: row;
+    align-items: space-evenly;
     background-color: #ecf1f6;
     width: 86vw;
     height: 20rem;
@@ -319,6 +322,7 @@ a {
 
 .circle-graph-btn {
     text-align: center;
+    
 }
 
 .total-btn {
@@ -330,7 +334,8 @@ a {
     color: #6e7179;
     cursor: pointer;
     -moz-border-radius:28px;
-	-webkit-border-radius:28px;
+    -webkit-border-radius:28px;
+    padding: 0;
 }
 
 .applicants-btn {
@@ -342,7 +347,8 @@ a {
     color: #6e7179;
     cursor: pointer;
     -moz-border-radius:28px;
-	-webkit-border-radius:28px;
+    -webkit-border-radius:28px;
+    padding: 0;
 }
   /* Job Description Section */
 
@@ -355,6 +361,9 @@ a {
 /* Links Section */
 
 .links-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #ecf1f6;
     width: 30vw;
     height: 52rem;
