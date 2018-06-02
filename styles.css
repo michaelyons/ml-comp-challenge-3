@@ -66,17 +66,19 @@
 
 .leftside-nav-list {
     list-style-type: none;
-    padding-left: 2em;
+    margin: 0 0 0 2rem;
+    padding: 0;
 }
 
 .leftside-nav-list li:hover {
     border-left: solid;
     border-left-color: #15adf8;
+    background-color: #30394a;
     color: #e1e8ef;
 }
 
 li {
-    padding-bottom: 1em;
+    padding: 1rem 0 1rem 4rem;
     cursor: pointer;
 }
 
@@ -191,7 +193,7 @@ a {
 }
 
 .job-title-nav li {
-    padding-right: 2.5em;
+    margin: 0 1rem 0 1rem;
 }
 .open-btn {
     display: flex;
