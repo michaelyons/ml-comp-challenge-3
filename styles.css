@@ -369,37 +369,47 @@ a {
     height: 52rem;
 }
 
+.link-button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 9rem;
+}
+
 .link-btn1 {
     background-color: #4a6ec1;
-    width: 20rem;
-    height: 4rem;
+    width: 15rem;
+    height: 2.5rem;
+    color: #dae7f5
 }
 
 .link-btn2 {
     background-color: #03aaef;
-    width: 20rem;
-    height: 4rem;
+    width: 15rem;
+    height: 2.5rem;
+    color: #dae7f5;
 }
 
 .link-btn3 {
     background-color: #0482bd;
-    width: 20rem;
-    height: 4rem;
+    width: 15rem;
+    height: 2.5rem;
+    color: #dae7f5;
 }
 
 .facebook-btn {
-    width: 1.7rem;
-    height: 1.7rem;
+    width: 1rem;
+    height: 1rem;
 }
 
 .twitter-btn {
-    width: 1.7rem;
-    height: 1.7rem;
+    width: 1rem;
+    height: 1rem;
 }
 
 .linkedin-btn {
-    width: 1.7rem;
-    height: 1.7rem;
+    width: 1rem;
+    height: 1rem;
 }
 
 /* MEDIA QUERIES */
