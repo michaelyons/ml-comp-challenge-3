@@ -316,6 +316,24 @@ a {
 .circle-graph-btn {
     text-align: center;
 }
+
+.total-btn {
+    border-radius: 50%;
+    width: 15rem;
+    height: 2rem;
+    font-size: .75rem;
+    font-weight: bold;
+    color: #6e7179;
+}
+
+.applicants-btn {
+    border-radius: 50%;
+    width: 15rem;
+    height: 2rem;
+    font-size: .75rem;
+    font-weight: bold;
+    color: #6e7179;
+}
   /* Job Description Section */
 
 .job-description-container {
