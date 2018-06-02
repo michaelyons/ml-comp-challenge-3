@@ -33,6 +33,7 @@
 .name {
     color: #8c94a7;
     text-align: center;
+    cursor: pointer;
 }
 
 .down-arrow {
@@ -44,6 +45,11 @@
     width: 1em;
     height: 1em;
     padding-right: .4em;
+    cursor: pointer;
+}
+
+.nav-btn:hover {
+    color: #e1e8ef;
 }
 
 .main-nav {
@@ -60,11 +66,24 @@
 
 .leftside-nav-list {
     list-style-type: none;
-    padding-left: 2em;
+    margin: 0 0 0 2rem;
+    padding: 0;
+}
+
+.leftside-nav-list li:hover {
+    border-left: solid;
+    border-left-color: #15adf8;
+    background-color: #30394a;
+    color: #e1e8ef;
 }
 
 li {
-    padding-bottom: 1em;
+    padding: 1rem 0 1rem 4rem;
+    cursor: pointer;
+}
+
+.categories-nav li:hover {
+    border: none;
 }
 
 /* Styling for top search section */
@@ -124,7 +143,7 @@ li {
 /*Job title display section*/
 
 .job-title-container {
-    background-color: red;
+    background-color:#ffffff;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
@@ -133,11 +152,17 @@ li {
     width: 86vw;
     height: 15rem;
 }
+
+a {
+    color: #63b5e1;
+}
+
 .job-header-and-btns {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+
 .job-title-header {
     display: flex;
     flex-direction: column;
@@ -146,19 +171,29 @@ li {
 .location-icon {
     width: 1rem;
     height: 1rem;
+    cursor: pointer;
 }
 
 .job-title-btns {
     display: flex;
     flex-direction: row;
 }
+
 .job-title-nav {
     display: flex;
     flex-direction: row;
     list-style-type: none;
+    cursor: pointer;
 }
+
+.job-title-nav li:hover {
+    font-weight: bold;
+    border-bottom: solid;
+    border-bottom-color: #42b2f1;
+}
+
 .job-title-nav li {
-    padding-right: 2.5em;
+    margin: 0 1rem 0 1rem;
 }
 .open-btn {
     display: flex;
@@ -167,6 +202,7 @@ li {
     border-radius: 30%;
     width: 4rem;
     height: 4rem;
+    cursor: pointer;
 }
 
 .green-dot {
@@ -180,6 +216,7 @@ li {
     border-radius: 50%;
     width: 4rem;
     height: 4rem;
+    cursor: pointer;
 }
 
 .job-btns-icon {
@@ -269,6 +306,39 @@ li {
     background-color: #ecf1f6;
     width: 30vw;
     height: 52rem;
+}
+
+.link-btn1 {
+    background-color: #4a6ec1;
+    width: 20rem;
+    height: 4rem;
+}
+
+.link-btn2 {
+    background-color: #03aaef;
+    width: 20rem;
+    height: 4rem;
+}
+
+.link-btn3 {
+    background-color: #0482bd;
+    width: 20rem;
+    height: 4rem;
+}
+
+.facebook-btn {
+    width: 1.7rem;
+    height: 1.7rem;
+}
+
+.twitter-btn {
+    width: 1.7rem;
+    height: 1.7rem;
+}
+
+.linkedin-btn {
+    width: 1.7rem;
+    height: 1.7rem;
 }
 
 /* MEDIA QUERIES */
