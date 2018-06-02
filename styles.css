@@ -262,6 +262,7 @@ a {
 .bar-graph-and-button {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .circle-chart__circle {
@@ -313,6 +314,7 @@ a {
     flex-direction: column;
     width: 43rem;
     margin-right: 0;
+    align-items: center;
 }
 
 .circle-graph-btn {
