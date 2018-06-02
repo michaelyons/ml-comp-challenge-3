@@ -15,7 +15,7 @@
     flex: 1;
     color: #8c94a7;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: .75em;
+    font-size: 1em;
 }
 
 .name-picture-container {
@@ -27,7 +27,7 @@
 .portrait {
     margin-top: 2em;
     width: 50%;
-    height: 9em;
+    height: 5rem;
     border-radius: 100%;
 }
 .name {
@@ -75,7 +75,7 @@ li {
     justify-content: space-between;
     flex-direction: row;
     width: 86vw;
-    height: 5rem; 
+    height: 4rem; 
 }
 
 .search-btn-left {
@@ -128,8 +128,19 @@ li {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #5a595f;
     width: 86vw;
-    height: 20rem;
+    height: 15rem;
+}
+.job-header-and-btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.job-title-header {
+    display: flex;
+    flex-direction: column;
 }
 
 .location-icon {
@@ -137,12 +148,18 @@ li {
     height: 1rem;
 }
 
-.main-page-nav {
+.job-title-btns {
+    display: flex;
+    flex-direction: row;
+}
+.job-title-nav {
     display: flex;
     flex-direction: row;
     list-style-type: none;
 }
-
+.job-title-nav li {
+    padding-right: 2.5em;
+}
 .open-btn {
     display: flex;
     justify-content: center;
@@ -172,45 +189,33 @@ li {
 /* Graphs */
 
 .graph-container {
+    display: flex;
+    flex-direction: row;
     background-color: #ecf1f6;
     width: 86vw;
-    height: 30em;
+    height: 20rem;
 }
+
+.bar-graph-and-button {
+    display: flex;
+    flex-direction: column;
+}
+
 .circle-chart__circle {
-    width: 10rem;
+    width: 5rem;
 }
 
 .bar-graph {
-    width: 15em;
-    height: 10em;
+    width: 25em;
+    height: 15em;
 }
 
-/**
- * 1. The `reverse` animation direction plays the animation backwards
- *    which makes it start at the stroke offset 100 which means displaying
- *    no stroke at all and animating it to the value defined in the SVG
- *    via the inline `stroke-dashoffset` attribute.
- * 2. Rotate by -90 degree to make the starting point of the
- *    stroke the top of the circle.
- * 3. Using CSS transforms on SVG elements is not supported by Internet Explorer
- *    and Edge, use the transform attribute directly on the SVG element as a
- * .  workaround (https://markus.oberlehner.net/blog/pure-css-animated-svg-circle-chart/#part-4-internet-explorer-strikes-back).
- */
 .circle-chart__circle {
     animation: circle-chart-fill 2s reverse; /* 1 */ 
     transform: rotate(89deg); /* 2, 3 */
     transform-origin: center; /* 4 */
 }
   
-  /**
-   * 1. Rotate by -90 degree to make the starting point of the
-   *    stroke the top of the circle.
-   * 2. Scaling mirrors the circle to make the stroke move right
-   *    to mark a positive chart value.
-   * 3. Using CSS transforms on SVG elements is not supported by Internet Explorer
-   *    and Edge, use the transform attribute directly on the SVG element as a
-   * .  workaround (https://markus.oberlehner.net/blog/pure-css-animated-svg-circle-chart/#part-4-internet-explorer-strikes-back).
-   */
 .circle-chart__circle--negative {
     animation: circle-chart-fill 2s reverse;
     transform: rotate(90deg); /* 1, 2, 3 */
@@ -233,22 +238,23 @@ li {
     }
 }
   
-  /* Layout styles only, not needed for functionality */
-  
-.graph-grid {
-    display: grid;
-    grid-column-gap: 1em;
-    grid-row-gap: 1em;
-    grid-template-columns: repeat(4, 1fr);
-    margin: 2.5em 0 0 .5em;
-}
-  
-@media (min-width: 31em) {
-    .graph-grid {
-      grid-template-columns: repeat(4, 1fr);
-    }
+.graph-circle-grid {
+    display: flex;
+    flex-direction: row;
+    margin: 2.5em 0 0 0;
+
 }
 
+.circle-graph-and-btn {
+    display: flex;
+    flex-direction: column;
+    width: 43rem;
+    margin-right: 0;
+}
+
+.circle-graph-btn {
+    text-align: center;
+}
   /* Job Description Section */
 
 .job-description-container {
