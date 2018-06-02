@@ -180,9 +180,16 @@ li {
 }
 
 .graph-container {
+    display: flex;
+    flex-direction: row;
     background-color: #ecf1f6;
     width: 86vw;
     height: 20rem;
+}
+
+.bar-graph-and-button {
+    display: flex;
+    flex-direction: column;
 }
 
 .circle-chart__circle {
