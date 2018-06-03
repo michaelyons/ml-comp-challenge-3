@@ -359,12 +359,25 @@ a {
     width: 100%;
     display: flex;
     flex-direction: row;
-    height: 2rem;
+    align-items: center;
+    background-color: #ecf1f6;
     
+}
+.divide-btn {
+    background-color: #fcfcfc;
+    border-radius: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+}
+
+.divide-btns-icon {
+    width: .55rem;
 }
 
 .static-line-with-button1 {
     width: 100%;
+    height: 0;
     display: flex;
     flex-direction: row;
     border-bottom: solid;
@@ -373,6 +386,7 @@ a {
 
 .static-line-with-button2 {
     width: 100%;
+    height: 0;
     display: flex;
     flex-direction: row;
     border-bottom: solid;
