@@ -1,21 +1,22 @@
 .page-container {
     display: flex;
+    width: 100vw;
 }
 
 .wrapper {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex: 5;
+    flex-flow: row wrap;
+    width: 100%;
 }
 /* Styling for left navigation sidebar */
 
 .nav-container {
     background: #374050;
-    flex: 1;
     color: #8c94a7;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1em;
+    min-width: 12rem;
+    width: 12rem;
 }
 
 .name-picture-container {
@@ -26,7 +27,7 @@
 
 .portrait {
     margin-top: 2em;
-    width: 50%;
+    width: 5rem;
     height: 5rem;
     border-radius: 100%;
 }
@@ -92,7 +93,7 @@ li {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    width: 86vw;
+    width: 100%;
     height: 3.8rem; 
 }
 
@@ -100,7 +101,7 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 4rem;
+    width: 5rem;
 }
 
 .hamburger-btn {
@@ -114,7 +115,8 @@ li {
 }
 
 .search-input {
-    width: 88rem;
+    width: 100%;
+    /* min-width: 10rem; */
     background-image: url(/images/search.svg);
     background-repeat: no-repeat;
     background-size: 1em;
@@ -126,7 +128,7 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 4.3rem;
+    width: 5rem;
 }
 
 .search-btn-right:hover {
@@ -223,6 +225,7 @@ a {
     border-radius: 50%;
     width: 6rem;
     height: 2rem;
+    padding: 0;
     cursor: pointer;
     font-size: .8rem;
     font-weight: bold;
@@ -243,6 +246,7 @@ a {
     width: 1.5rem;
     height: 1.5rem;
     cursor: pointer;
+    padding: 0;
 }
 
 .job-btns-icon {
@@ -254,14 +258,16 @@ a {
 .graph-container {
     display: flex;
     flex-direction: row;
+    align-items: space-evenly;
     background-color: #ecf1f6;
-    width: 86vw;
+    width: 100%;
     height: 20rem;
 }
 
 .bar-graph-and-button {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .circle-chart__circle {
@@ -313,10 +319,12 @@ a {
     flex-direction: column;
     width: 43rem;
     margin-right: 0;
+    align-items: center;
 }
 
 .circle-graph-btn {
     text-align: center;
+    
 }
 
 .total-btn {
@@ -328,7 +336,8 @@ a {
     color: #6e7179;
     cursor: pointer;
     -moz-border-radius:28px;
-	-webkit-border-radius:28px;
+    -webkit-border-radius:28px;
+    padding: 0;
 }
 
 .applicants-btn {
@@ -340,62 +349,82 @@ a {
     color: #6e7179;
     cursor: pointer;
     -moz-border-radius:28px;
-	-webkit-border-radius:28px;
+    -webkit-border-radius:28px;
+    padding: 0;
 }
   /* Job Description Section */
 
+  .bottom-container {
+      display: flex;
+      flex-flow: row wrap;
+      width: 100%;
+  }
+
 .job-description-container {
     background-color: #ecf1f6;
-    width: 56vw;
+    width: 70%;
     height: 52rem;
 }
 
 /* Links Section */
 
 .links-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #ecf1f6;
-    width: 30vw;
+    width: 30%;
     height: 52rem;
+}
+
+.link-button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 9rem;
 }
 
 .link-btn1 {
     background-color: #4a6ec1;
-    width: 20rem;
-    height: 4rem;
+    width: 15rem;
+    height: 2.5rem;
+    color: #dae7f5
 }
 
 .link-btn2 {
     background-color: #03aaef;
-    width: 20rem;
-    height: 4rem;
+    width: 15rem;
+    height: 2.5rem;
+    color: #dae7f5;
 }
 
 .link-btn3 {
     background-color: #0482bd;
-    width: 20rem;
-    height: 4rem;
+    width: 15rem;
+    height: 2.5rem;
+    color: #dae7f5;
 }
 
 .facebook-btn {
-    width: 1.7rem;
-    height: 1.7rem;
+    width: 1rem;
+    height: 1rem;
 }
 
 .twitter-btn {
-    width: 1.7rem;
-    height: 1.7rem;
+    width: 1rem;
+    height: 1rem;
 }
 
 .linkedin-btn {
-    width: 1.7rem;
-    height: 1.7rem;
+    width: 1rem;
+    height: 1rem;
 }
 
 /* MEDIA QUERIES */
 
-@media (max-width: 950px) {
+@media (max-width: 1269px) {
      .wrapper {
-        margin-left: 0;
+        margin: 0;
     }
     
     .nav-container {
@@ -403,27 +432,27 @@ a {
     }
 
     .search-container {
-        width: 100vw; 
+        /* width: 100vw;  */
     }
 
     .search-input {
-        width: 80em;
+        /* width: 80em; */
     }
 
     .job-title-container {
-        width: 100vw;
+        width: 100%;
     }
 
     .graph-container {
-        width: 100vw;
+        width: 100%;
     }
 
     .job-description-container {
-        width: 63vw;
+        width: 63%;
     }
 
     .links-container {
-        width: 37vw;
+        width: 37%;
     }
     
 }
