@@ -31,6 +31,7 @@
     height: 5rem;
     border-radius: 100%;
 }
+
 .name {
     color: #8c94a7;
     text-align: center;
@@ -402,10 +403,9 @@ a {
 
 .job-description-container {
     background-color: #ecf1f6;
-    width: 70%;
+    width: 50%;
     height: 52rem;
-    border: solid;
-    border-color: pink;
+    padding-left: 3%;
 }
 
 .jobtitle-and-edit {
@@ -421,6 +421,62 @@ a {
     color: #e1e9f6;
 }
 
+.job-info-container {
+    background-color: #fff;
+}
+
+.position-title-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.job-location {
+    display: flex;
+    flex-direction: row;
+}
+
+.employment-type {
+    display: flex;
+    flex-direction: row;
+}
+
+.experience-level {
+    display: flex;
+    flex-direction: row;
+}
+
+.job-status {
+    display: flex;
+    flex-direction: row;
+}
+
+.job-description-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.hiring-contact {
+    display: flex;
+    flex-direction: row;
+}
+
+.salary-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.hiring-picture-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portrait2 {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+}
+
 
 /* Links Section */
 
@@ -429,7 +485,7 @@ a {
     flex-direction: column;
     align-items: center;
     background-color: #ecf1f6;
-    width: 30%;
+    width: 47%;
     height: 52rem;
 }
 
@@ -478,7 +534,7 @@ a {
 
 /* MEDIA QUERIES */
 
-@media (max-width: 1269px) {
+@media (max-width: 1360px) {
      .wrapper {
         margin: 0;
     }
@@ -487,28 +543,11 @@ a {
         display: none;
     }
 
-    .search-container {
-        /* width: 100vw;  */
-    }
-
-    .search-input {
-        /* width: 80em; */
-    }
-
     .job-title-container {
         width: 100%;
     }
 
     .graph-container {
         width: 100%;
-    }
-
-    .job-description-container {
-        width: 63%;
-    }
-
-    .links-container {
-        width: 37%;
-    }
-    
+    } 
 }
