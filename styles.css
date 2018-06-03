@@ -1,6 +1,7 @@
 .page-container {
     display: flex;
     width: 100vw;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .wrapper {
@@ -13,7 +14,6 @@
 .nav-container {
     background: #374050;
     color: #8c94a7;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1em;
     min-width: 12rem;
     width: 12rem;
@@ -394,7 +394,7 @@ a {
 }
   /* Job Description Section */
 
-  .bottom-container {
+.bottom-container {
       display: flex;
       flex-flow: row wrap;
       width: 100%;
@@ -404,7 +404,23 @@ a {
     background-color: #ecf1f6;
     width: 70%;
     height: 52rem;
+    border: solid;
+    border-color: pink;
 }
+
+.jobtitle-and-edit {
+    display: flex;
+    flex-direction: row;
+    background-color: #6f7e95;
+    color: #e1e9f6;
+}
+
+.edit-btn {
+    background-color: #7b8aa1;
+    border: none;
+    color: #e1e9f6;
+}
+
 
 /* Links Section */
 
