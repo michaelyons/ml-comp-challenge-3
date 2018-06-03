@@ -352,17 +352,31 @@ a {
     -webkit-border-radius:28px;
     padding: 0;
 }
+
+/* Dividing Line Between Graphs and Job Description */
+
 .divide-line {
+    width: 100%;
     display: flex;
     flex-direction: row;
+    height: 2rem;
     
 }
+
 .static-line-with-button1 {
     width: 100%;
     display: flex;
     flex-direction: row;
     border-bottom: solid;
-    border-bottom-color: #2c3749;
+    border-bottom-color: #dbe1e5;
+}
+
+.static-line-with-button2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-bottom: solid;
+    border-bottom-color: #dbe1e5;
 }
   /* Job Description Section */
 
