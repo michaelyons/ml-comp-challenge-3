@@ -1,12 +1,12 @@
 .page-container {
     display: flex;
+    width: 100vw;
 }
 
 .wrapper {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex: 5;
+    flex-flow: row wrap;
+    width: 100%;
 }
 /* Styling for left navigation sidebar */
 
@@ -15,8 +15,8 @@
     color: #8c94a7;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1em;
-    min-width: 10rem;
-    width: 10rem;
+    min-width: 12rem;
+    width: 12rem;
 }
 
 .name-picture-container {
@@ -93,7 +93,7 @@ li {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    width: 86vw;
+    width: 100%;
     height: 3.8rem; 
 }
 
@@ -101,7 +101,7 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 4rem;
+    width: 5rem;
 }
 
 .hamburger-btn {
@@ -115,7 +115,8 @@ li {
 }
 
 .search-input {
-    width: 88rem;
+    width: 100%;
+    /* min-width: 10rem; */
     background-image: url(/images/search.svg);
     background-repeat: no-repeat;
     background-size: 1em;
@@ -127,7 +128,7 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 4.3rem;
+    width: 5rem;
 }
 
 .search-btn-right:hover {
@@ -259,7 +260,7 @@ a {
     flex-direction: row;
     align-items: space-evenly;
     background-color: #ecf1f6;
-    width: 86vw;
+    width: 100%;
     height: 20rem;
 }
 
@@ -353,9 +354,15 @@ a {
 }
   /* Job Description Section */
 
+  .bottom-container {
+      display: flex;
+      flex-flow: row wrap;
+      width: 100%;
+  }
+
 .job-description-container {
     background-color: #ecf1f6;
-    width: 56vw;
+    width: 70%;
     height: 52rem;
 }
 
@@ -366,7 +373,7 @@ a {
     flex-direction: column;
     align-items: center;
     background-color: #ecf1f6;
-    width: 30vw;
+    width: 30%;
     height: 52rem;
 }
 
@@ -415,9 +422,9 @@ a {
 
 /* MEDIA QUERIES */
 
-@media (max-width: 950px) {
+@media (max-width: 1269px) {
      .wrapper {
-        margin-left: 0;
+        margin: 0;
     }
     
     .nav-container {
@@ -425,27 +432,27 @@ a {
     }
 
     .search-container {
-        width: 100vw; 
+        /* width: 100vw;  */
     }
 
     .search-input {
-        width: 80em;
+        /* width: 80em; */
     }
 
     .job-title-container {
-        width: 100vw;
+        width: 100%;
     }
 
     .graph-container {
-        width: 100vw;
+        width: 100%;
     }
 
     .job-description-container {
-        width: 63vw;
+        width: 63%;
     }
 
     .links-container {
-        width: 37vw;
+        width: 37%;
     }
     
 }
