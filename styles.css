@@ -1,6 +1,7 @@
 .page-container {
     display: flex;
     width: 100vw;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .wrapper {
@@ -13,7 +14,6 @@
 .nav-container {
     background: #374050;
     color: #8c94a7;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1em;
     min-width: 12rem;
     width: 12rem;
@@ -31,6 +31,7 @@
     height: 5rem;
     border-radius: 100%;
 }
+
 .name {
     color: #8c94a7;
     text-align: center;
@@ -148,10 +149,9 @@ li {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #5a595f;
-    width: 86vw;
-    height: 8.8rem;
+    width: 100%;
+    height: 8.5rem;
 }
 
 a {
@@ -176,7 +176,7 @@ a {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 14rem;
+    width: 16rem;
 }
 
 .job-title {
@@ -184,21 +184,30 @@ a {
 }
 
 .location-icon {
-    width: .5rem;
-    height: .5rem;
+    width: .75rem;
+    height: .75rem;
+    padding-right: .25rem;
     cursor: pointer;
 }
 
 .location {
-    width: 6rem;
+    width: 7rem;
     height: 1rem;
+}
+
+.location-dot-seperate {
+    width: .15rem;
+    height: .15rem;
+    padding: 0 .4rem 0 .1rem;
 }
 
 .job-title-btns {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
     align-items: center;
-    margin-right: 2rem;
+    margin-right: 1.3rem;
+    width: 11rem;
 }
 
 .job-title-nav {
@@ -206,6 +215,8 @@ a {
     flex-direction: row;
     list-style-type: none;
     cursor: pointer;
+    padding: 0;
+    margin: 0 0 0 .75rem;
 }
 
 .job-title-nav li:hover {
@@ -215,19 +226,19 @@ a {
 }
 
 .job-title-nav li {
-    margin: 0 1rem 0 1rem;
-    padding-bottom: 1rem;
+    margin: 0 3rem 0 1rem;
+    padding-bottom: .75rem;
 }
 .open-btn {
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    width: 6rem;
-    height: 2rem;
+    width: 3.5rem;
+    height: 1.5rem;
     padding: 0;
     cursor: pointer;
-    font-size: .8rem;
+    font-size: .5rem;
     font-weight: bold;
     -moz-border-radius:28px;
 	-webkit-border-radius:28px;
@@ -352,21 +363,49 @@ a {
     -webkit-border-radius:28px;
     padding: 0;
 }
+
+/* Dividing Line Between Graphs and Job Description */
+
 .divide-line {
-    display: flex;
-    flex-direction: row;
-    
-}
-.static-line-with-button1 {
     width: 100%;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    background-color: #ecf1f6;
+    
+}
+.divide-btn {
+    background-color: #fcfcfc;
+    border-radius: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+}
+
+.divide-btns-icon {
+    width: .55rem;
+}
+
+.static-line-with-button1 {
+    width: 100%;
+    height: 0;
+    display: flex;
+    flex-direction: row;
     border-bottom: solid;
-    border-bottom-color: #2c3749;
+    border-bottom-color: #dbe1e5;
+}
+
+.static-line-with-button2 {
+    width: 100%;
+    height: 0;
+    display: flex;
+    flex-direction: row;
+    border-bottom: solid;
+    border-bottom-color: #dbe1e5;
 }
   /* Job Description Section */
 
-  .bottom-container {
+.bottom-container {
       display: flex;
       flex-flow: row wrap;
       width: 100%;
@@ -374,9 +413,80 @@ a {
 
 .job-description-container {
     background-color: #ecf1f6;
-    width: 70%;
+    width: 50%;
     height: 52rem;
+    padding-left: 3%;
 }
+
+.jobtitle-and-edit {
+    display: flex;
+    flex-direction: row;
+    background-color: #6f7e95;
+    color: #e1e9f6;
+}
+
+.edit-btn {
+    background-color: #7b8aa1;
+    border: none;
+    color: #e1e9f6;
+}
+
+.job-info-container {
+    background-color: #fff;
+}
+
+.position-title-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.job-location {
+    display: flex;
+    flex-direction: row;
+}
+
+.employment-type {
+    display: flex;
+    flex-direction: row;
+}
+
+.experience-level {
+    display: flex;
+    flex-direction: row;
+}
+
+.job-status {
+    display: flex;
+    flex-direction: row;
+}
+
+.job-description-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.hiring-contact {
+    display: flex;
+    flex-direction: row;
+}
+
+.salary-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.hiring-picture-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portrait2 {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+}
+
 
 /* Links Section */
 
@@ -385,7 +495,7 @@ a {
     flex-direction: column;
     align-items: center;
     background-color: #ecf1f6;
-    width: 30%;
+    width: 47%;
     height: 52rem;
 }
 
@@ -434,37 +544,20 @@ a {
 
 /* MEDIA QUERIES */
 
-@media (max-width: 1269px) {
-     .wrapper {
+@media (max-width: 1360px) {
+.wrapper {
         margin: 0;
-    }
+}
     
-    .nav-container {
+.nav-container {
         display: none;
-    }
+}
 
-    .search-container {
-        /* width: 100vw;  */
-    }
-
-    .search-input {
-        /* width: 80em; */
-    }
-
-    .job-title-container {
+.job-title-container {
         width: 100%;
-    }
+}
 
-    .graph-container {
+.graph-container {
         width: 100%;
-    }
-
-    .job-description-container {
-        width: 63%;
-    }
-
-    .links-container {
-        width: 37%;
-    }
-    
+} 
 }
