@@ -535,19 +535,19 @@ a {
 /* MEDIA QUERIES */
 
 @media (max-width: 1360px) {
-     .wrapper {
+.wrapper {
         margin: 0;
-    }
+}
     
-    .nav-container {
+.nav-container {
         display: none;
-    }
+}
 
-    .job-title-container {
+.job-title-container {
         width: 100%;
-    }
+}
 
-    .graph-container {
+.graph-container {
         width: 100%;
-    } 
+} 
 }
