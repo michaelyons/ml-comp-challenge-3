@@ -184,14 +184,21 @@ a {
 }
 
 .location-icon {
-    width: .5rem;
-    height: .5rem;
+    width: .75rem;
+    height: .75rem;
+    padding-right: .25rem;
     cursor: pointer;
 }
 
 .location {
     width: 7rem;
     height: 1rem;
+}
+
+.location-dot-seperate {
+    width: .15rem;
+    height: .15rem;
+    padding: 0 .4rem 0 .1rem;
 }
 
 .job-title-btns {
@@ -208,6 +215,8 @@ a {
     flex-direction: row;
     list-style-type: none;
     cursor: pointer;
+    padding: 0;
+    margin-left: .75rem;
 }
 
 .job-title-nav li:hover {
