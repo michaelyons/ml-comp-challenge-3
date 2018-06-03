@@ -151,7 +151,7 @@ li {
     flex-direction: column;
     color: #5a595f;
     width: 100%;
-    height: 8.8rem;
+    height: 8.5rem;
 }
 
 a {
@@ -216,7 +216,7 @@ a {
     list-style-type: none;
     cursor: pointer;
     padding: 0;
-    margin-left: .75rem;
+    margin: 0 0 0 .75rem;
 }
 
 .job-title-nav li:hover {
@@ -226,8 +226,8 @@ a {
 }
 
 .job-title-nav li {
-    margin: 0 1rem 0 1rem;
-    padding-bottom: 1rem;
+    margin: 0 3rem 0 1rem;
+    padding-bottom: .75rem;
 }
 .open-btn {
     display: flex;
