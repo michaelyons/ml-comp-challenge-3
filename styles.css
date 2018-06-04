@@ -389,6 +389,7 @@ a {
     border-radius: 50%;
     width: 2rem;
     height: 2rem;
+    padding: 0 .5rem 0 .5rem;
     cursor: pointer;
 }
 
@@ -436,7 +437,7 @@ a {
     align-items: center;
     background-color: #6f7e95;
     color: #e1e9f6;
-    padding-left: 1rem;
+    padding-left: 2rem;
     font-weight: 900;
 }
 
@@ -449,9 +450,14 @@ a {
     margin-left: 2rem;
 }
 
+.edit-btns-icon {
+    padding-right: .5rem;
+    width: .55rem;
+}
+
 .job-info-container {
     background-color: #fff;
-    padding-left: 1rem;
+    padding-left: 2rem;
 }
 
 .position-title-container {
@@ -464,7 +470,7 @@ a {
 }
 
 .position-title-container p {
-    margin-left: 2rem;
+    margin-left: 2.5rem;
 }
 
 .job-location {
@@ -477,7 +483,7 @@ a {
 }
 
 .job-location p {
-    margin-left: 3.55rem;
+    margin-left: 4.1rem;
 }
 
 .employment-type {
@@ -490,7 +496,7 @@ a {
 }
 
 .employment-type p {
-    margin-left: .6rem;
+    margin-left: 1.2rem;
 }
 
 .experience-level {
@@ -503,7 +509,7 @@ a {
 }
 
 .experience-level p {
-    margin-left: 3rem;
+    margin-left: 3.5rem;
 }
 
 .job-status {
@@ -516,7 +522,7 @@ a {
 }
 
 .job-status p {
-    margin-left: 4.4rem;
+    margin-left: 4.9rem;
 }
 
 .job-description-info {
@@ -529,8 +535,8 @@ a {
 }
 
 .job-description-info p {
-    margin-left: 2.6rem;
-    margin-right: 4rem;
+    margin-left: 3.15rem;
+    margin-right: 3rem;
 }
 
 .hiring-contact {
@@ -543,7 +549,7 @@ a {
 }
 
 .hiring-contact img {
-    margin-left: 2.8rem;
+    margin-left: 3.4rem;
 }
 
 .hiring-contact p {
@@ -556,7 +562,7 @@ a {
 }
 
 .salary-container p{
-    margin-left: .8rem;
+    margin-left: 1.4rem;
 }
 
 .hiring-picture-container {
@@ -627,6 +633,8 @@ a {
 
 .links-container h4 {
     color: #6c7380;
+    font-size: 1.2rem;
+    margin-bottom: .5rem;
 }
 
 .links-container p {
@@ -648,6 +656,8 @@ a {
 
 .side-search-input {
     width: 100%;
+    padding-left: .75rem;
+    height: 2.5rem;
 }
 
 /* MEDIA QUERIES */
