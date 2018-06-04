@@ -427,6 +427,7 @@ a {
     align-items: center;
     background-color: #6f7e95;
     color: #e1e9f6;
+    padding-left: 1rem;
 }
 
 .edit-btn {
@@ -435,10 +436,12 @@ a {
     color: #e1e9f6;
     height: 1.5rem;
     font-size: .5rem;
+    margin-left: 2rem;
 }
 
 .job-info-container {
     background-color: #fff;
+    padding-left: 1rem;
 }
 
 .position-title-container {
@@ -446,9 +449,17 @@ a {
     flex-direction: row;
 }
 
+.position-title-container p {
+    margin-left: 2.5rem;
+}
+
 .job-location {
     display: flex;
     flex-direction: row;
+}
+
+.job-location p {
+    margin-left: 4rem;
 }
 
 .employment-type {
@@ -456,9 +467,17 @@ a {
     flex-direction: row;
 }
 
+.employment-type p {
+    margin-left: 1rem;
+}
+
 .experience-level {
     display: flex;
     flex-direction: row;
+}
+
+.experience-level p {
+    margin-left: 3.2rem;
 }
 
 .job-status {
@@ -466,9 +485,17 @@ a {
     flex-direction: row;
 }
 
+.job-status p {
+    margin-left: 4.5rem;
+}
+
 .job-description-info {
     display: flex;
     flex-direction: row;
+}
+
+.job-description-info p {
+    margin-left: 2.6rem;
 }
 
 .hiring-contact {
@@ -476,9 +503,21 @@ a {
     flex-direction: row;
 }
 
+.hiring-contact img {
+    margin-left: 2.6rem;
+}
+
+.hiring-contact p {
+    margin-left: 1.3rem;
+}
+
 .salary-container {
     display: flex;
     flex-direction: row;
+}
+
+.salary-container p{
+    margin-left: .5rem;
 }
 
 .hiring-picture-container {
