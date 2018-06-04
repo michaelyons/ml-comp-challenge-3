@@ -14,7 +14,6 @@
 .nav-container {
     background: #374050;
     color: #8c94a7;
-    font-size: 1em;
     min-width: 12rem;
     width: 12rem;
 }
@@ -75,7 +74,6 @@
 
 .leftside-nav-list {
     list-style-type: none;
-    margin-bottom:2rem;
     padding: 0;
 }
 
@@ -90,7 +88,6 @@ li {
     cursor: pointer;
     padding: .5rem 0 .5rem 2rem;
     width: 100%;
-    margin: 0 0 1rem 0;
     font-size: .5rem;
 }
 
@@ -219,6 +216,10 @@ a {
     margin-right: 1.3rem;
     width: 11rem;
 }
+/* 
+.job-summary-group {
+    width: 5rem;
+} */
 
 .job-title-nav {
     display: flex;
@@ -235,10 +236,6 @@ a {
     border-bottom-color: #42b2f1;
 }
 
-.job-title-nav li {
-    margin: 0 2rem 0 1rem;
-    padding-bottom: .75rem;
-}
 .open-btn {
     display: flex;
     justify-content: center;
@@ -282,13 +279,14 @@ a {
     align-items: space-evenly;
     background-color: #ecf1f6;
     width: 100%;
-    height: 20rem;
+    height: 18rem;
 }
 
 .bar-graph-and-button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 2rem;
 }
 
 .circle-chart__circle {
@@ -296,8 +294,8 @@ a {
 }
 
 .bar-graph {
-    width: 30rem;
-    height: 14rem;
+    width: 27rem;
+    height: 12rem;
 }
 
 .circle-chart__circle {
@@ -366,7 +364,8 @@ a {
     border-radius: 50%;
     width: 8rem;
     height: 1.75rem;
-    font-size: .75rem;
+    font-size: .1rem;
+    margin-top: .5rem;
     font-weight: bold;
     color: #6e7179;
     cursor: pointer;
@@ -427,8 +426,8 @@ a {
 .job-description-container {
     background-color: #ecf1f6;
     width: 50%;
-    height: 52rem;
     margin-top: 3rem;
+    color: #8390a7;
 }
 
 .jobtitle-and-edit {
@@ -438,6 +437,7 @@ a {
     background-color: #6f7e95;
     color: #e1e9f6;
     padding-left: 1rem;
+    font-weight: 900;
 }
 
 .edit-btn {
@@ -457,6 +457,10 @@ a {
 .position-title-container {
     display: flex;
     flex-direction: row;
+    border-bottom: solid;
+    border-bottom-color: #f2eeee;
+    border-bottom-width: .1rem;
+    margin-right: 1rem;
 }
 
 .position-title-container p {
@@ -466,6 +470,10 @@ a {
 .job-location {
     display: flex;
     flex-direction: row;
+    border-bottom: solid;
+    border-bottom-color: #f2eeee;
+    border-bottom-width: .1rem;
+    margin-right: 1rem;
 }
 
 .job-location p {
@@ -475,6 +483,10 @@ a {
 .employment-type {
     display: flex;
     flex-direction: row;
+    border-bottom: solid;
+    border-bottom-color: #f2eeee;
+    border-bottom-width: .1rem;
+    margin-right: 1rem;
 }
 
 .employment-type p {
@@ -484,6 +496,10 @@ a {
 .experience-level {
     display: flex;
     flex-direction: row;
+    border-bottom: solid;
+    border-bottom-color: #f2eeee;
+    border-bottom-width: .1rem;
+    margin-right: 1rem;
 }
 
 .experience-level p {
@@ -493,6 +509,10 @@ a {
 .job-status {
     display: flex;
     flex-direction: row;
+    border-bottom: solid;
+    border-bottom-color: #f2eeee;
+    border-bottom-width: .1rem;
+    margin-right: 1rem;
 }
 
 .job-status p {
@@ -502,6 +522,10 @@ a {
 .job-description-info {
     display: flex;
     flex-direction: row;
+    border-bottom: solid;
+    border-bottom-color: #f2eeee;
+    border-bottom-width: .1rem;
+    margin-right: 1rem;
 }
 
 .job-description-info p {
@@ -512,6 +536,10 @@ a {
 .hiring-contact {
     display: flex;
     flex-direction: row;
+    border-bottom: solid;
+    border-bottom-color: #f2eeee;
+    border-bottom-width: .1rem;
+    margin-right: 1rem;
 }
 
 .hiring-contact img {
@@ -543,7 +571,6 @@ a {
     border-radius: 100%;
 }
 
-
 /* Links Section */
 
 .links-container {
@@ -552,7 +579,7 @@ a {
     background-color: #ecf1f6;
     width: 30%;
     margin-top: 3rem;
-    height: 52rem;
+    height: 50rem;
 }
 
 .link-button-container {
