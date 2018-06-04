@@ -81,6 +81,7 @@
 
 li {
     cursor: pointer;
+    width: 100%;
 }
 
 .categories-nav li:hover {
@@ -117,7 +118,6 @@ li {
 
 .search-input {
     width: 100%;
-    /* min-width: 10rem; */
     background-image: url(/images/search.svg);
     background-repeat: no-repeat;
     background-size: 1em;
@@ -408,7 +408,9 @@ a {
 .bottom-container {
       display: flex;
       flex-flow: row wrap;
+      justify-content: space-evenly;
       width: 100%;
+      background-color: #ecf1f6;
   }
 
 .job-description-container {
@@ -416,6 +418,7 @@ a {
     width: 50%;
     height: 52rem;
     padding-left: 3%;
+    margin-top: 3rem;
 }
 
 .jobtitle-and-edit {
@@ -498,7 +501,8 @@ a {
     flex-direction: column;
     align-items: center;
     background-color: #ecf1f6;
-    width: 47%;
+    width: 30%;
+    margin-top: 3rem;
     height: 52rem;
 }
 
