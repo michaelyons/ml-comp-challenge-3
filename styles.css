@@ -450,7 +450,7 @@ a {
 }
 
 .position-title-container p {
-    margin-left: 2.5rem;
+    margin-left: 2rem;
 }
 
 .job-location {
@@ -459,7 +459,7 @@ a {
 }
 
 .job-location p {
-    margin-left: 4rem;
+    margin-left: 3.55rem;
 }
 
 .employment-type {
@@ -468,7 +468,7 @@ a {
 }
 
 .employment-type p {
-    margin-left: 1rem;
+    margin-left: .6rem;
 }
 
 .experience-level {
@@ -477,7 +477,7 @@ a {
 }
 
 .experience-level p {
-    margin-left: 3.2rem;
+    margin-left: 3rem;
 }
 
 .job-status {
@@ -486,7 +486,7 @@ a {
 }
 
 .job-status p {
-    margin-left: 4.5rem;
+    margin-left: 4.4rem;
 }
 
 .job-description-info {
@@ -496,6 +496,7 @@ a {
 
 .job-description-info p {
     margin-left: 2.6rem;
+    margin-right: 4rem;
 }
 
 .hiring-contact {
@@ -504,7 +505,7 @@ a {
 }
 
 .hiring-contact img {
-    margin-left: 2.6rem;
+    margin-left: 2.8rem;
 }
 
 .hiring-contact p {
@@ -517,7 +518,7 @@ a {
 }
 
 .salary-container p{
-    margin-left: .5rem;
+    margin-left: .8rem;
 }
 
 .hiring-picture-container {
