@@ -26,15 +26,16 @@
 }
 
 .portrait {
-    margin-top: 2em;
-    width: 5rem;
-    height: 5rem;
+    margin-top: 1.5em;
+    width: 4.5rem;
+    height: 4.5rem;
     border-radius: 100%;
 }
 
 .name {
     color: #8c94a7;
     text-align: center;
+    font-size: .8rem;
     cursor: pointer;
 }
 
@@ -54,6 +55,12 @@
     color: #e1e8ef;
 }
 
+.nav-headers {
+    color: #5a677a;
+    font-size: .4rem;
+    margin-left: 1rem;
+}
+
 .main-nav {
     border-top: solid;
     border-top-color: #2c3749;
@@ -68,7 +75,7 @@
 
 .leftside-nav-list {
     list-style-type: none;
-    margin: 0 0 0 2rem;
+    margin-bottom:2rem;
     padding: 0;
 }
 
@@ -81,7 +88,10 @@
 
 li {
     cursor: pointer;
+    padding: .5rem 0 .5rem 2rem;
     width: 100%;
+    margin: 0 0 1rem 0;
+    font-size: .5rem;
 }
 
 .categories-nav li:hover {
@@ -378,8 +388,8 @@ a {
 .divide-btn {
     background-color: #fcfcfc;
     border-radius: 50%;
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 2rem;
+    height: 2rem;
     cursor: pointer;
 }
 
