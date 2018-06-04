@@ -216,7 +216,7 @@ a {
     list-style-type: none;
     cursor: pointer;
     padding: 0;
-    margin: 0 0 0 .75rem;
+    margin: 0 0 0 .25rem;
 }
 
 .job-title-nav li:hover {
@@ -226,7 +226,7 @@ a {
 }
 
 .job-title-nav li {
-    margin: 0 3rem 0 1rem;
+    margin: 0 2rem 0 1rem;
     padding-bottom: .75rem;
 }
 .open-btn {
@@ -286,8 +286,8 @@ a {
 }
 
 .bar-graph {
-    width: 25em;
-    height: 15em;
+    width: 30rem;
+    height: 14rem;
 }
 
 .circle-chart__circle {
@@ -321,7 +321,7 @@ a {
 .graph-circle-grid {
     display: flex;
     flex-direction: row;
-    margin: 2.5em 0 0 0;
+    margin-top: 3rem;
 
 }
 
@@ -340,8 +340,8 @@ a {
 
 .total-btn {
     border-radius: 50%;
-    width: 15rem;
-    height: 2rem;
+    width: 12rem;
+    height: 1.75rem;
     font-size: .75rem;
     font-weight: bold;
     color: #6e7179;
@@ -349,12 +349,13 @@ a {
     -moz-border-radius:28px;
     -webkit-border-radius:28px;
     padding: 0;
+    margin-left: 2.5rem;
 }
 
 .applicants-btn {
     border-radius: 50%;
-    width: 15rem;
-    height: 2rem;
+    width: 8rem;
+    height: 1.75rem;
     font-size: .75rem;
     font-weight: bold;
     color: #6e7179;
