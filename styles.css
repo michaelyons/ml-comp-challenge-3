@@ -1008,3 +1008,25 @@ a {
     height: 2.5rem;
 }
 }
+
+@media (max-width: 330px) {
+.link-btn1 {
+    width: 15rem;
+}   
+    
+.link-btn2 {
+    width: 15rem;
+}
+    
+.link-btn3 {
+    width: 15rem;
+}
+    
+.copy-link-container {
+    width: 15rem;
+}
+
+.side-search-input {
+    width: 15rem;
+}
+}
