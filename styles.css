@@ -158,7 +158,7 @@ li {
     flex-direction: column;
     color: #5a595f;
     width: 100%;
-    height: 8.5rem;
+    height: 8rem;
 }
 
 a {
@@ -186,8 +186,10 @@ a {
     width: 16rem;
 }
 
+
 .job-title {
-    margin-left: 1.75rem;
+    margin-left: 1.45rem;
+    margin-bottom: 0;
 }
 
 .location-icon {
@@ -227,9 +229,21 @@ a {
 }
 
 .job-title-nav li:hover {
-    font-weight: bold;
+    font-weight: 900;
+    color: #30394a;
+    font-size: .6rem;
     border-bottom: solid;
     border-bottom-color: #42b2f1;
+}
+
+.job-title-nav li {
+    display: flex;
+    align-items: flex-start;
+    padding-left: 0;
+}
+
+.job-title-location-preview {
+    margin-bottom: 2rem;
 }
 
 .open-btn {
