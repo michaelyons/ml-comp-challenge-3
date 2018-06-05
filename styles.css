@@ -111,6 +111,10 @@ li {
     justify-content: center;
     align-items: center;
     width: 4rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1rem;
+    background-image: url("images/playlist (1).svg");
 }
 
 .hamburger-btn {
@@ -118,18 +122,13 @@ li {
     height: 1.4rem;
 }
 
-.blue-arrow-btn-container{
- float: right;
-}
-
-.blue-arrow-btn {
-    float: right;
-    width: 1.4rem;
-    height: 1.4rem;
-}
 .search-btn-left:hover {
     background-color: #14a4fa;
     cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1rem;
+    background-image: url("images/playlist (1) copy.svg");
 }
 
 .search-input {
@@ -141,16 +140,64 @@ li {
     padding-left: 3rem;
 }
 
-.search-btn-right {
+.search-btn-right1 {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 4rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1rem;
+    background-image: url("images/add-user-button.svg");
 }
 
-.search-btn-right:hover {
+.search-btn-right1:hover {
     background-color: #14a4fa;
     cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1rem;
+    background-image: url("images/add-user-button-hover.svg");
+}
+
+.search-btn-right2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1rem;
+    background-image: url("images/month-calendar.svg");
+}
+
+.search-btn-right2:hover {
+    background-color: #14a4fa;
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1rem;
+    background-image: url("images/month-calendar-hover.svg");
+}
+
+.search-btn-right3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1rem;
+    background-image: url("images/menu.svg");
+}
+
+.search-btn-right3:hover {
+    background-color: #14a4fa;
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1rem;
+    background-image: url("images/menu (1).svg");
 }
 
 .top-right-btn {
@@ -185,7 +232,7 @@ a {
     display: flex;
     flex-direction: column;
     font-size: .7rem;
-    margin-top: 1.5rem;
+    margin-top: .8rem;
 }
 
 .job-title-location-preview {
@@ -194,11 +241,12 @@ a {
     justify-content: center;
     align-items: center;
     width: 16rem;
+    padding-top: .7rem;
 }
 
 
 .job-title {
-    margin-left: 1.45rem;
+    margin-left: 2.45rem;
     margin-bottom: 0;
 }
 
@@ -234,14 +282,15 @@ a {
     flex-direction: row;
     list-style-type: none;
     cursor: pointer;
+    width: auto;
     padding: 0;
-    margin: 0 0 0 .25rem;
+    margin-left: 2.5rem;
+    margin-bottom: 0;
 }
 
 .job-title-nav li:hover {
     font-weight: 900;
     color: #30394a;
-    font-size: .6rem;
     border-bottom: solid;
     border-bottom-color: #42b2f1;
 }
@@ -249,11 +298,15 @@ a {
 .job-title-nav li {
     display: flex;
     align-items: flex-start;
+    font-size: .8rem;
+    width: auto;
+    padding-bottom: 1.5rem;
     padding-left: 0;
+    margin-right: 4rem;
 }
 
 .job-title-location-preview {
-    margin-bottom: 2rem;
+    margin:0 0 2rem 1.1rem;
 }
 
 .open-btn {
@@ -471,6 +524,7 @@ a {
     height: 1.5rem;
     font-size: .5rem;
     margin-left: 2rem;
+    cursor: pointer;
 }
 
 .edit-btns-icon {
@@ -706,7 +760,7 @@ a {
 
 /* MEDIA QUERIES */
 
-@media (max-width: 1360px) {
+@media (max-width: 1160px) {
 .wrapper {
     margin: 0;
 }
@@ -721,7 +775,7 @@ a {
 
 .graph-container {
     width: 100%;
-} 
+}
 }
 
 @media (max-width: 910px) {
@@ -729,6 +783,11 @@ a {
     display: flex;
     flex-direction: column;
     height: 32rem;
+}
+
+.job-title-nav li {
+    margin-right: 1.6rem;
+    font-size: .6rem;
 }
 
 .bottom-container {
@@ -830,6 +889,13 @@ a {
     height: 35rem;
 }
 
+.job-title-nav li {
+    display: flex;
+    justify-content: center;
+    margin-right: .5rem;
+    font-size: .6rem;
+}
+
 .link-btn1 {
     width: 25rem;
 }   
@@ -883,6 +949,19 @@ a {
 
 .graph-container {
     display: none;
+}
+
+.job-title-btns {
+    display: none;
+}
+
+.job-title-nav {
+    display: none;
+}
+
+.divide-btn {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .divide-line {
