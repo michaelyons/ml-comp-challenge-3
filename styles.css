@@ -39,13 +39,13 @@
 }
 
 .down-arrow {
-    width: .75em;
-    height: .5em;
+    width: .95em;
+    height: .7em;
 }
 
 .nav-btn {
-    width: 1em;
-    height: 1em;
+    width: 2em;
+    height: 1.75em;
     padding-right: .4em;
     cursor: pointer;
 }
@@ -56,7 +56,7 @@
 
 .nav-headers {
     color: #5a677a;
-    font-size: .4rem;
+    font-size: .75rem;
     margin-left: 1rem;
 }
 
@@ -88,7 +88,7 @@ li {
     cursor: pointer;
     padding: .5rem 0 .5rem 2rem;
     width: 100%;
-    font-size: .5rem;
+    font-size: .65rem;
 }
 
 .categories-nav li:hover {
@@ -244,6 +244,9 @@ a {
     padding-top: .7rem;
 }
 
+.alt-job-select-menu {
+    display: none;
+}
 
 .job-title {
     margin-left: 2.45rem;
@@ -314,11 +317,12 @@ a {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    width: 3.5rem;
-    height: 1.5rem;
+    width: 5rem;
+    height: 2rem;
     padding: 0;
+    margin-right: .6rem;
     cursor: pointer;
-    font-size: .5rem;
+    font-size: .65rem;
     font-weight: bold;
     -moz-border-radius:28px;
 	-webkit-border-radius:28px;
@@ -334,14 +338,23 @@ a {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 2.2rem;
+    height: 2rem;
+    margin-right: .6rem;
     cursor: pointer;
     padding: 0;
 }
 
+.open-btn:hover {
+  background-color: #ecf1f6;
+}
+
+.job-btns:hover {
+  background-color: #ecf1f6;
+}
+
 .job-btns-icon {
-    width: .65rem;
+    width: .75rem;
 }
 
 /* Graphs */
@@ -435,13 +448,23 @@ a {
     height: 1.75rem;
     font-size: .65rem;
     font-weight: 800;
-    margin-top: .5rem;
+    margin-top: .75rem;
     font-weight: bold;
     color: #6e7179;
     cursor: pointer;
     -moz-border-radius:28px;
     -webkit-border-radius:28px;
     padding: 0;
+}
+
+.total-btn:hover {
+    color: #fcfcfc;
+    background-color: rgb(111, 136, 212);
+}
+
+.applicants-btn:hover {
+    color: #fcfcfc;
+    background-color: rgb(111, 136, 212);
 }
 
 /* Dividing Line Between Graphs and Job Description */
@@ -464,6 +487,10 @@ a {
     height: 1.5rem;
     padding: 2.5;
     cursor: pointer;
+}
+
+.divide-btn:hover {
+    background-color: #c5bbbb;
 }
 
 .divide-btns-icon {
@@ -523,6 +550,10 @@ a {
     font-size: .5rem;
     margin-left: 2rem;
     cursor: pointer;
+}
+
+.edit-btn:hover {
+    background-color: #7da4e0;
 }
 
 .edit-btns-icon {
@@ -706,6 +737,17 @@ a {
     font-size: .8rem;
 }
 
+.link-btn1:hover {
+    background-color: #1648bd;
+}
+
+.link-btn2:hover {
+    background-color: #0e678d;
+}
+
+.link-btn3:hover {
+    background-color: #09445e;
+}
 .facebook-btn {
     width: 1rem;
     height: 1rem;
@@ -744,6 +786,11 @@ a {
     cursor: pointer;
 }
 
+.link-copy-btns:hover {
+    background-color: #13a8b3;
+   
+}
+
 .copy-link-container {
     display: flex;
     flex-direction: row;
@@ -759,6 +806,7 @@ a {
 /* MEDIA QUERIES */
 
 @media (max-width: 1160px) {
+
 .wrapper {
     margin: 0;
 }
@@ -777,6 +825,7 @@ a {
 }
 
 @media (max-width: 910px) {
+
 .graph-container {
     display: flex;
     flex-direction: column;
@@ -949,12 +998,15 @@ a {
     display: none;
 }
 
-.job-title-btns {
+.job-title-nav {
     display: none;
 }
 
-.job-title-nav {
-    display: none;
+.alt-job-select-menu {
+    display: flex;
+    margin: 0 0 1rem 2rem;
+    width: 8rem;
+    height: 2.5rem;
 }
 
 .divide-btn {
@@ -1032,5 +1084,9 @@ a {
 
 .side-search-input {
     width: 15rem;
+}
+
+.job-title-btns {
+    display: none;
 }
 }
