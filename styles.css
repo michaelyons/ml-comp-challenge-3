@@ -216,10 +216,6 @@ a {
     margin-right: 1.3rem;
     width: 11rem;
 }
-/* 
-.job-summary-group {
-    width: 5rem;
-} */
 
 .job-title-nav {
     display: flex;
@@ -286,11 +282,8 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
     margin-top: 2rem;
-}
-
-.circle-chart__circle {
-    width: 5rem;
 }
 
 .bar-graph {
@@ -299,14 +292,14 @@ a {
 }
 
 .circle-chart__circle {
-    animation: circle-chart-fill 2s reverse; /* 1 */ 
-    transform: rotate(89deg); /* 2, 3 */
-    transform-origin: center; /* 4 */
+    animation: circle-chart-fill 2s reverse;
+    transform: rotate(89deg);
+    transform-origin: center;
 }
   
 .circle-chart__circle--negative {
     animation: circle-chart-fill 2s reverse;
-    transform: rotate(90deg); /* 1, 2, 3 */
+    transform: rotate(90deg);
 }
   
 .circle-chart__info {
@@ -336,22 +329,21 @@ a {
 .circle-graph-and-btn {
     display: flex;
     flex-direction: column;
-    width: 43rem;
+    width: 100%;
     margin-right: 0;
     align-items: center;
 }
 
 .circle-graph-btn {
     text-align: center;
-    
 }
 
 .total-btn {
     border-radius: 50%;
     width: 12rem;
     height: 1.75rem;
-    font-size: .75rem;
-    font-weight: bold;
+    font-size: .65rem;
+    font-weight: 800;
     color: #6e7179;
     cursor: pointer;
     -moz-border-radius:28px;
@@ -362,9 +354,10 @@ a {
 
 .applicants-btn {
     border-radius: 50%;
-    width: 8rem;
+    width: 9rem;
     height: 1.75rem;
-    font-size: .1rem;
+    font-size: .65rem;
+    font-weight: 800;
     margin-top: .5rem;
     font-weight: bold;
     color: #6e7179;
@@ -386,10 +379,10 @@ a {
 }
 .divide-btn {
     background-color: #fcfcfc;
-    border-radius: 50%;
-    width: 2rem;
-    height: 2rem;
-    padding: 0 .5rem 0 .5rem;
+    border-radius: 100%;
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 2.5;
     cursor: pointer;
 }
 
