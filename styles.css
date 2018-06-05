@@ -885,17 +885,7 @@ a {
     display: none;
 }
 
-.divide-btn {
-    margin-top: 1rem;
-    
-}
-
-.divide-btn {
-    margin-bottom: 1rem;
-    
-}
-
 .divide-line {
-    height: 2rem;
+    display: none;
 }
 }
