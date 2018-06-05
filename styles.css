@@ -381,18 +381,18 @@ a {
     height: 12rem;
 }
 
-.circle-chart__circle {
+.circle-chart-circle {
     animation: circle-chart-fill 2s reverse;
     transform: rotate(89deg);
     transform-origin: center;
 }
   
-.circle-chart__circle--negative {
+.circle-chart-circle-negative {
     animation: circle-chart-fill 2s reverse;
     transform: rotate(90deg);
 }
   
-.circle-chart__info {
+.circle-chart-info {
     animation: circle-chart-appear 2s forwards;
     opacity: 0;
     transform: translateY(0.3em);
