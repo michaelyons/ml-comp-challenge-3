@@ -785,6 +785,11 @@ a {
     height: 32rem;
 }
 
+.job-title-nav li {
+    margin-right: 1.6rem;
+    font-size: .6rem;
+}
+
 .bottom-container {
     display: flex;
     flex-direction: column;
@@ -884,6 +889,13 @@ a {
     height: 35rem;
 }
 
+.job-title-nav li {
+    display: flex;
+    justify-content: center;
+    margin-right: .5rem;
+    font-size: .6rem;
+}
+
 .link-btn1 {
     width: 25rem;
 }   
@@ -936,6 +948,10 @@ a {
 @media (max-width: 530px) {
 
 .graph-container {
+    display: none;
+}
+
+.job-title-btns {
     display: none;
 }
 
