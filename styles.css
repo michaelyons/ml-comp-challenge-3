@@ -110,7 +110,7 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 5rem;
+    width: 4rem;
 }
 
 .hamburger-btn {
@@ -136,7 +136,7 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 5rem;
+    width: 4rem;
 }
 
 .search-btn-right:hover {
@@ -302,7 +302,7 @@ a {
 }
 
 .bar-graph {
-    width: 27rem;
+    width: 25rem;
     height: 12rem;
 }
 
