@@ -103,21 +103,30 @@ li {
     justify-content: space-between;
     flex-direction: row;
     width: 100%;
-    height: 3.8rem; 
+    height: 3.4rem; 
 }
 
 .search-btn-left {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 5rem;
+    width: 4rem;
 }
 
 .hamburger-btn {
-    width: 1.6rem;
-    height: 1.6rem;
+    width: 1.4rem;
+    height: 1.4rem;
 }
 
+.blue-arrow-btn-container{
+ float: right;
+}
+
+.blue-arrow-btn {
+    float: right;
+    width: 1.4rem;
+    height: 1.4rem;
+}
 .search-btn-left:hover {
     background-color: #14a4fa;
     cursor: pointer;
@@ -136,7 +145,7 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 5rem;
+    width: 4rem;
 }
 
 .search-btn-right:hover {
@@ -158,7 +167,7 @@ li {
     flex-direction: column;
     color: #5a595f;
     width: 100%;
-    height: 8rem;
+    height: 10rem;
 }
 
 a {
@@ -176,6 +185,7 @@ a {
     display: flex;
     flex-direction: column;
     font-size: .7rem;
+    margin-top: 1.5rem;
 }
 
 .job-title-location-preview {
@@ -297,11 +307,11 @@ a {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    margin-top: 2rem;
+    margin-top: 1.2rem;
 }
 
 .bar-graph {
-    width: 27rem;
+    width: 25rem;
     height: 12rem;
 }
 
@@ -391,7 +401,11 @@ a {
     background-color: #ecf1f6;
     
 }
+
 .divide-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #fcfcfc;
     border-radius: 100%;
     width: 1.5rem;
@@ -411,6 +425,7 @@ a {
     flex-direction: row;
     border-bottom: solid;
     border-bottom-color: #dbe1e5;
+    margin: 0 .85rem 0 3.6rem;
 }
 
 .static-line-with-button2 {
@@ -420,6 +435,7 @@ a {
     flex-direction: row;
     border-bottom: solid;
     border-bottom-color: #dbe1e5;
+    margin: 0 3.6rem 0 .85rem;
 }
   /* Job Description Section */
 
@@ -433,7 +449,7 @@ a {
 
 .job-description-container {
     background-color: #ecf1f6;
-    width: 50%;
+    width: 62%;
     margin-top: 3rem;
     color: #8390a7;
 }
@@ -489,6 +505,7 @@ a {
     border-bottom-color: #f2eeee;
     border-bottom-width: .1rem;
     margin-right: 1rem;
+ 
 }
 
 .job-location p {
@@ -598,16 +615,16 @@ a {
     display: flex;
     flex-direction: column;
     background-color: #ecf1f6;
-    width: 30%;
+    width: 25%;
     margin-top: 3rem;
-    height: 50rem;
+    height: 46rem;
 }
 
 .link-button-container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 11rem;
+    height: 10.5rem;
 }
 
 .link-btn1 {
@@ -615,6 +632,8 @@ a {
     width: 100%;
     height: 3rem;
     color: #dae7f5;
+    cursor: pointer;
+    font-size: .8rem;
 }
 
 .link-btn2 {
@@ -622,6 +641,8 @@ a {
     width: 100%;
     height: 3rem;
     color: #dae7f5;
+    cursor: pointer;
+    font-size: .8rem;
 }
 
 .link-btn3 {
@@ -629,31 +650,38 @@ a {
     width: 100%;
     height: 3rem;
     color: #dae7f5;
+    cursor: pointer;
+    font-size: .8rem;
 }
 
 .facebook-btn {
     width: 1rem;
     height: 1rem;
+    float: left;
 }
 
 .twitter-btn {
     width: 1rem;
     height: 1rem;
+    float: left;
 }
 
 .linkedin-btn {
     width: 1rem;
     height: 1rem;
+    float: left;
 }
 
 .links-container h4 {
     color: #6c7380;
-    font-size: 1.2rem;
-    margin-bottom: .5rem;
+    font-size: 1rem;
+    margin-bottom: 1.4rem;
 }
 
 .links-container p {
     color: #aeb2bb;
+    font-size: .8rem;
+    margin-top: .25rem;
 }
 
 .link-copy-btns {
@@ -661,6 +689,7 @@ a {
     color: #c9e0ee;
     font-size: .7rem;
     padding: 0 .75rem 0 .75rem;
+    cursor: pointer;
 }
 
 .copy-link-container {
@@ -679,18 +708,194 @@ a {
 
 @media (max-width: 1360px) {
 .wrapper {
-        margin: 0;
+    margin: 0;
 }
     
 .nav-container {
-        display: none;
+    display: none;
 }
 
 .job-title-container {
-        width: 100%;
+    width: 100%;
 }
 
 .graph-container {
-        width: 100%;
+    width: 100%;
 } 
+}
+
+@media (max-width: 910px) {
+.graph-container {
+    display: flex;
+    flex-direction: column;
+    height: 32rem;
+}
+
+.bottom-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.job-description-container {
+    width: 100%;
+    margin-top: 1.5rem;
+}
+
+.links-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1rem;
+    height: 12rem;
+}
+
+.links-container p {
+    display: none;
+}
+
+.link-btn1 {
+    width: 10rem;
+    margin-left: .5rem;
+}   
+
+.link-btn2 {
+    width: 10rem;
+    margin-left: .5rem;
+}
+
+.link-btn3 {
+    width: 10rem;
+    margin-left: .5rem;
+}
+
+.links-container h4 {
+    text-align: center;
+    font-size: .7rem;
+    margin-bottom: .5rem;
+}
+
+.link-container-1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+
+.link-container-2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+
+.link-container-3 {
+    display: flex;
+    flex-flow: column wrap;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.copy-link-container {
+    display: flex;
+    flex-direction: column;
+    height: 6.5rem;
+    font-size: .75rem;
+}
+
+.side-search-input {
+    width: 100%;
+    padding-left: .75rem;
+    height: 2.5rem;
+    font-size: .75rem;
+}
+
+.link-copy-btns {
+    font-size: 1rem;
+    padding: .75rem;
+    cursor: pointer;
+}
+
+.side-search-input {
+    width: 100%;
+    padding-left: .75rem;
+    height: 2.5rem;
+}
+}
+
+@media (max-width: 730px) {
+
+.links-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 35rem;
+}
+
+.link-btn1 {
+    width: 25rem;
+}   
+
+.link-btn2 {
+    width: 25rem;
+}
+
+.link-btn3 {
+    width: 25rem;
+}
+
+.link-container-3 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2.75rem;
+}
+
+.links-container h4 {
+    text-align: center;
+    font-size: .7rem;
+    margin-bottom: .5rem;
+}
+
+.copy-link-container {
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    margin-right: 1.4rem;
+}
+
+.side-search-input {
+    width: 100%;
+    height: 2.5rem;
+    font-size: .75rem;
+}
+
+.link-copy-btns {
+    font-size: .85rem;
+    padding: .75rem;
+    cursor: pointer;
+}
+
+.side-search-input {
+    width: 25rem;
+    height: 2.5rem;
+}
+}
+
+@media (max-width: 530px) {
+
+.graph-container {
+    display: none;
+}
+
+.divide-btn {
+    margin-top: 1rem;
+    
+}
+
+.divide-btn {
+    margin-bottom: 1rem;
+    
+}
+
+.divide-line {
+    height: 2rem;
+}
 }
