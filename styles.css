@@ -822,6 +822,14 @@ a {
 .graph-container {
     width: 100%;
 }
+
+.search-btn-left {
+    background-image: url("images/playlist.svg");
+}
+
+.search-btn-left:hover {
+    background-image: url("images/playlist-hover-right.svg");
+}
 }
 
 @media (max-width: 910px) {
@@ -1007,6 +1015,7 @@ a {
     margin: 0 0 1rem 2rem;
     width: 8rem;
     height: 2.5rem;
+    cursor: pointer;
 }
 
 .divide-btn {
