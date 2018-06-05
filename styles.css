@@ -964,7 +964,7 @@ a {
 }
 
 .divide-line {
-    height: 2rem;
+    display: none;
 }
 
 .link-btn1 {
