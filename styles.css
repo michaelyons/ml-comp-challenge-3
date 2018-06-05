@@ -540,6 +540,7 @@ a {
     background-color: #6f7e95;
     color: #e1e9f6;
     padding-left: 2rem;
+    height: 10%;
 }
 
 .edit-btn {
@@ -564,6 +565,7 @@ a {
 .job-info-container {
     background-color: #fff;
     padding-left: 2rem;
+    height: 41.5rem;
 }
 
 .position-title-container {
@@ -574,6 +576,7 @@ a {
     border-bottom-color: #f2eeee;
     border-bottom-width: .1rem;
     margin-right: 1rem;
+    height: 10%;
 }
 
 .position-title-container p {
@@ -588,6 +591,7 @@ a {
     border-bottom-color: #f2eeee;
     border-bottom-width: .1rem;
     margin-right: 1rem;
+    height: 10%;
  
 }
 
@@ -603,6 +607,7 @@ a {
     border-bottom-color: #f2eeee;
     border-bottom-width: .1rem;
     margin-right: 1rem;
+    height: 10%;
 }
 
 .employment-type p {
@@ -617,6 +622,7 @@ a {
     border-bottom-color: #f2eeee;
     border-bottom-width: .1rem;
     margin-right: 1rem;
+    height: 10%;
 }
 
 .experience-level p {
@@ -631,6 +637,7 @@ a {
     border-bottom-color: #f2eeee;
     border-bottom-width: .1rem;
     margin-right: 1rem;
+    height: 10%;
 }
 
 .job-status p {
@@ -645,11 +652,11 @@ a {
     border-bottom-color: #f2eeee;
     border-bottom-width: .1rem;
     margin-right: 1rem;
+    height: 20%;
 }
 
 .job-description-info p {
-    margin-left: 3.15rem;
-    margin-right: 3rem;
+    margin: 1.5rem 3rem 1.5rem 3.15rem;
 }
 
 .hiring-contact {
@@ -660,6 +667,7 @@ a {
     border-bottom-color: #f2eeee;
     border-bottom-width: .1rem;
     margin-right: 1rem;
+    height: 12%;
 }
 
 .hiring-contact img {
@@ -674,6 +682,8 @@ a {
     display: flex;
     flex-direction: row;
     align-items: center;
+    height: 10%;
+    padding-top: 1rem;
 }
 
 .salary-container p{
@@ -684,6 +694,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 10%;
 }
 
 .portrait2 {
@@ -700,7 +711,7 @@ a {
     background-color: #ecf1f6;
     width: 25%;
     margin-top: 3rem;
-    height: 46rem;
+    height: 55rem;
 }
 
 .link-button-container {
@@ -708,6 +719,16 @@ a {
     flex-direction: column;
     justify-content: space-between;
     height: 10.5rem;
+}
+
+.link-container-1 {
+    border-bottom: solid;
+    border-bottom-color: #d9dde3;
+}
+
+.link-container-2 {
+    border-bottom: solid;
+    border-bottom-color: #d9dde3;
 }
 
 .link-btn1 {
@@ -795,6 +816,7 @@ a {
     display: flex;
     flex-direction: row;
     height: 2.5rem;
+    padding-bottom: 2.5rem;
 }
 
 .side-search-input {
