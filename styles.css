@@ -103,7 +103,7 @@ li {
     justify-content: space-between;
     flex-direction: row;
     width: 100%;
-    height: 3.8rem; 
+    height: 3.4rem; 
 }
 
 .search-btn-left {
@@ -158,7 +158,7 @@ li {
     flex-direction: column;
     color: #5a595f;
     width: 100%;
-    height: 8rem;
+    height: 10rem;
 }
 
 a {
@@ -176,6 +176,7 @@ a {
     display: flex;
     flex-direction: column;
     font-size: .7rem;
+    margin-top: 1.5rem;
 }
 
 .job-title-location-preview {
@@ -297,7 +298,7 @@ a {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    margin-top: 2rem;
+    margin-top: 1.2rem;
 }
 
 .bar-graph {
@@ -392,6 +393,9 @@ a {
     
 }
 .divide-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #fcfcfc;
     border-radius: 100%;
     width: 1.5rem;
@@ -411,6 +415,7 @@ a {
     flex-direction: row;
     border-bottom: solid;
     border-bottom-color: #dbe1e5;
+    margin: 0 .85rem 0 3.6rem;
 }
 
 .static-line-with-button2 {
@@ -420,6 +425,7 @@ a {
     flex-direction: row;
     border-bottom: solid;
     border-bottom-color: #dbe1e5;
+    margin: 0 3.6rem 0 .85rem;
 }
   /* Job Description Section */
 
@@ -433,7 +439,7 @@ a {
 
 .job-description-container {
     background-color: #ecf1f6;
-    width: 50%;
+    width: 62%;
     margin-top: 3rem;
     color: #8390a7;
 }
@@ -489,6 +495,7 @@ a {
     border-bottom-color: #f2eeee;
     border-bottom-width: .1rem;
     margin-right: 1rem;
+ 
 }
 
 .job-location p {
@@ -598,9 +605,9 @@ a {
     display: flex;
     flex-direction: column;
     background-color: #ecf1f6;
-    width: 30%;
+    width: 25%;
     margin-top: 3rem;
-    height: 50rem;
+    height: 56rem;
 }
 
 .link-button-container {
@@ -615,6 +622,7 @@ a {
     width: 100%;
     height: 3rem;
     color: #dae7f5;
+    cursor: pointer;
 }
 
 .link-btn2 {
@@ -622,6 +630,7 @@ a {
     width: 100%;
     height: 3rem;
     color: #dae7f5;
+    cursor: pointer;
 }
 
 .link-btn3 {
@@ -629,6 +638,7 @@ a {
     width: 100%;
     height: 3rem;
     color: #dae7f5;
+    cursor: pointer;
 }
 
 .facebook-btn {
@@ -661,6 +671,7 @@ a {
     color: #c9e0ee;
     font-size: .7rem;
     padding: 0 .75rem 0 .75rem;
+    cursor: pointer;
 }
 
 .copy-link-container {
