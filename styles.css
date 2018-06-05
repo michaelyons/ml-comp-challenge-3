@@ -114,10 +114,19 @@ li {
 }
 
 .hamburger-btn {
-    width: 1.6rem;
-    height: 1.6rem;
+    width: 1.4rem;
+    height: 1.4rem;
 }
 
+.blue-arrow-btn-container{
+ float: right;
+}
+
+.blue-arrow-btn {
+    float: right;
+    width: 1.4rem;
+    height: 1.4rem;
+}
 .search-btn-left:hover {
     background-color: #14a4fa;
     cursor: pointer;
@@ -607,14 +616,14 @@ a {
     background-color: #ecf1f6;
     width: 25%;
     margin-top: 3rem;
-    height: 56rem;
+    height: 46rem;
 }
 
 .link-button-container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 11rem;
+    height: 10.5rem;
 }
 
 .link-btn1 {
@@ -623,6 +632,7 @@ a {
     height: 3rem;
     color: #dae7f5;
     cursor: pointer;
+    font-size: .8rem;
 }
 
 .link-btn2 {
@@ -631,6 +641,7 @@ a {
     height: 3rem;
     color: #dae7f5;
     cursor: pointer;
+    font-size: .8rem;
 }
 
 .link-btn3 {
@@ -639,31 +650,37 @@ a {
     height: 3rem;
     color: #dae7f5;
     cursor: pointer;
+    font-size: .8rem;
 }
 
 .facebook-btn {
     width: 1rem;
     height: 1rem;
+    float: left;
 }
 
 .twitter-btn {
     width: 1rem;
     height: 1rem;
+    float: left;
 }
 
 .linkedin-btn {
     width: 1rem;
     height: 1rem;
+    float: left;
 }
 
 .links-container h4 {
     color: #6c7380;
-    font-size: 1.2rem;
-    margin-bottom: .5rem;
+    font-size: 1rem;
+    margin-bottom: 1.4rem;
 }
 
 .links-container p {
     color: #aeb2bb;
+    font-size: .8rem;
+    margin-top: .25rem;
 }
 
 .link-copy-btns {
@@ -690,18 +707,118 @@ a {
 
 @media (max-width: 1360px) {
 .wrapper {
-        margin: 0;
+    margin: 0;
 }
     
 .nav-container {
-        display: none;
+    display: none;
 }
 
 .job-title-container {
-        width: 100%;
+    width: 100%;
 }
 
 .graph-container {
-        width: 100%;
+    width: 100%;
 } 
 }
+
+@media (max-width: 910px) {
+.graph-container {
+    display: flex;
+    flex-direction: column;
+    height: 32rem;
+}
+
+.bottom-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.job-description-container {
+    width: 100%;
+    margin-top: 1.5rem;
+}
+
+.links-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1rem;
+    height: 12rem;
+}
+
+.links-container p {
+    display: none;
+}
+.link-btn1 {
+    width: 10rem;
+    margin-left: .5rem;
+}   
+
+.link-btn2 {
+    width: 10rem;
+    margin-left: .5rem;
+}
+
+.link-btn3 {
+    width: 10rem;
+    margin-left: .5rem;
+}
+
+.links-container h4 {
+    text-align: center;
+    font-size: .7rem;
+    margin-bottom: .5rem;
+}
+
+.link-container-1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+
+.link-container-2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+
+.link-container-3 {
+    display: flex;
+    flex-flow: column wrap;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.copy-link-container {
+    display: flex;
+    flex-direction: column;
+    height: 6.5rem;
+    font-size: .75rem;
+}
+
+.side-search-input {
+    width: 100%;
+    padding-left: .75rem;
+    height: 2.5rem;
+    font-size: .75rem;
+}
+
+.link-copy-btns {
+    font-size: 1rem;
+    padding: .75rem;
+    cursor: pointer;
+}
+
+.side-search-input {
+    width: 100%;
+    padding-left: .75rem;
+    height: 2.5rem;
+}
+}
+
+@media (max-width: 910px) {
+    
+    }
