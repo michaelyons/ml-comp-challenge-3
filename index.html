@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
     <link rel="stylesheet" href="normalize.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Static Comp 3</title>
 </head>
-
 <body>
     <div class="page-container">
         <section class="nav-container">
@@ -66,7 +64,6 @@
                 </ul>
             </nav>
         </section>
-
         <section class="wrapper">
             <section class="search-container">
                 <button class="search-btn-left">
@@ -79,7 +76,6 @@
                 <button class="search-btn-right3">
                 </button>
             </section>
-
             <section class="job-title-container">
                 <div class="job-header-and-btns">
                     <div class="job-title-header">
@@ -91,7 +87,6 @@
                             <a href="https://www.linkedin.com/in/mikejohnlyons/">Preview this post</a>
                         </div>
                     </div>
-
                     <div class="job-title-btns">
                         <button class="open-btn">
                             <img class="green-dot" src="images/green-dot.svg">OPEN</button>
@@ -106,7 +101,15 @@
                         </button>
                     </div>
                 </div>
-
+                <select class="alt-job-select-menu" src="images/menu-button-of-three-horizontal-lines.svg" alt="job-select-menu">
+                    <option value="">SUMMARY</option>
+                    <option value="">APPLICANTS</option>
+                    <option value="">JOB BOARD</option>
+                    <option value="">INTERVIEWS</option>
+                    <option value="">ACTIVITY</option>
+                    <option value="">BROADCAST</option>
+                    <option value="">NOTIFICATIONS</option>
+                </select>
                 <ul class="job-title-nav">
                     <li>SUMMARY</li>
                     <li>APPLICANTS</li>
@@ -117,43 +120,42 @@
                     <li>NOTIFICATIONS</li>
                 </ul>
             </section>
-
             <section class="graph-container">
                 <div class="circle-graph-and-btn">
                     <div class="graph-circle-grid">
                         <section>
                             <svg class="circle-chart" viewbox="0 0 43.83098862 43.83098862" width="170" height="170" xmlns="http://www.w3.org/2000/svg">
-                                <circle class="circle-chart__background" stroke="#dde5ec" stroke-width="2" fill="none" cx="26.91549431" cy="16.91549431"
+                                <circle class="circle-chart-background" stroke="#dde5ec" stroke-width="2" fill="none" cx="26.91549431" cy="16.91549431"
                                     r="15.91549431" />
-                                <circle class="circle-chart__circle" stroke="#43b8c1" stroke-width="2" stroke-dasharray="82,100" stroke-linecap="round" fill="none"
+                                <circle class="circle-chart-circle" stroke="#43b8c1" stroke-width="2" stroke-dasharray="82,100" stroke-linecap="round" fill="none"
                                     cx="16.91549431" cy="16.91549431" r="15.91549431" />
-                                <g class="circle-chart__info">
-                                    <text class="circle-chart__percent" x="26.91549431" y="14.5" alignment-baseline="central" text-anchor="middle" font-size="8">3,154</text>
-                                    <text class="circle-chart__subline" x="26.91549431" y="21.5" alignment-baseline="central" text-anchor="middle" font-size="2">APPLICANTS</text>
+                                <g class="circle-chart-info">
+                                    <text class="circle-chart-percent" x="26.91549431" y="14.5" alignment-baseline="central" text-anchor="middle" font-size="8">3,154</text>
+                                    <text class="circle-chart-subline" x="26.91549431" y="21.5" alignment-baseline="central" text-anchor="middle" font-size="2">APPLICANTS</text>
                                 </g>
                             </svg>
                         </section>
                         <section>
                             <svg class="circle-chart" viewbox="0 0 43.83098862 43.83098862" width="170" height="170" xmlns="http://www.w3.org/2000/svg">
-                                <circle class="circle-chart__background" stroke="#dde5ec" stroke-width="2" fill="none" cx="26.91549431" cy="16.91549431"
+                                <circle class="circle-chart-background" stroke="#dde5ec" stroke-width="2" fill="none" cx="26.91549431" cy="16.91549431"
                                     r="15.91549431" />
-                                <circle class="circle-chart__circle circle-chart__circle--negative" stroke="#06acfd" stroke-width="2" stroke-dasharray="38,100"
+                                <circle class="circle-chart-circle circle-chart-circle-negative" stroke="#06acfd" stroke-width="2" stroke-dasharray="38,100"
                                     stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
-                                <g class="circle-chart__info">
-                                    <text class="circle-chart__percent" x="26.91549431" y="14.5" alignment-baseline="central" text-anchor="middle" font-size="8">1,546</text>
-                                    <text class="circle-chart__subline" x="26.91549431" y="21.5" alignment-baseline="central" text-anchor="middle" font-size="2">INTERVIEWS</text>
+                                <g class="circle-chart-info">
+                                    <text class="circle-chart-percent" x="26.91549431" y="14.5" alignment-baseline="central" text-anchor="middle" font-size="8">1,546</text>
+                                    <text class="circle-chart-subline" x="26.91549431" y="21.5" alignment-baseline="central" text-anchor="middle" font-size="2">INTERVIEWS</text>
                                 </g>
                             </svg>
                         </section>
                         <section>
                             <svg class="circle-chart" viewbox="0 0 43.83098862 43.83098862" width="170" height="170" xmlns="http://www.w3.org/2000/svg">
-                                <circle class="circle-chart__background" stroke="#dde5ec" stroke-width="2" fill="none" cx="26.91549431" cy="16.91549431"
+                                <circle class="circle-chart-background" stroke="#dde5ec" stroke-width="2" fill="none" cx="26.91549431" cy="16.91549431"
                                     r="15.91549431" />
-                                <circle class="circle-chart__circle circle-chart__circle--negative" stroke="#a465a7" stroke-width="2" stroke-dasharray="20,100"
+                                <circle class="circle-chart-circle circle-chart-circle-negative" stroke="#a465a7" stroke-width="2" stroke-dasharray="20,100"
                                     stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
-                                <g class="circle-chart__info">
-                                    <text class="circle-chart__percent" x="26.91549431" y="14.5" alignment-baseline="central" text-anchor="middle" font-size="8">912</text>
-                                    <text class="circle-chart__subline" x="26.91549431" y="21.5" alignment-baseline="central" text-anchor="middle" font-size="2">FORWARDS</text>
+                                <g class="circle-chart-info">
+                                    <text class="circle-chart-percent" x="26.91549431" y="14.5" alignment-baseline="central" text-anchor="middle" font-size="8">912</text>
+                                    <text class="circle-chart-subline" x="26.91549431" y="21.5" alignment-baseline="central" text-anchor="middle" font-size="2">FORWARDS</text>
                                 </g>
                             </svg>
                         </section>
@@ -186,27 +188,22 @@
                             <h6>POSITION TITLE</h6>
                             <p>Software Engineering Consultant</p>
                         </div>
-
                         <div class="job-location">
                             <h6>LOCATION</h6>
                             <p>San Francisco, CA</p>
                         </div>
-
                         <div class="employment-type">
                             <h6>EMPLOYMENT TYPE</h6>
                             <p>Full-time</p>
                         </div>
-
                         <div class="experience-level">
                             <h6>EXPERIENCE</h6>
                             <p>Mid-level</p>
                         </div>
-
                         <div class="job-status">
                             <h6>STATUS</h6>
                             <p>Open</p>
                         </div>
-
                         <div class="job-description-info">
                             <h6>DESCRIPTION</h6>
                             <p>Godfather ipsum dolor sit amet. It's a Sicilian message. It means Luca Brasi sleeps with the
@@ -214,7 +211,6 @@
                                 come at what you love. Never let anyone know what you are thinking. Because it insults my
                                 intelligence and makes me very angry.</p>
                         </div>
-
                         <div class="hiring-contact">
                             <h6>HIRING LEAD</h6>
                             <div class="hiring-picture-container">
@@ -222,57 +218,48 @@
                             </div>
                             <p>Steven Wonder</p>
                         </div>
-
                         <div class="salary-container">
                             <h6>APPROVED SALARY</h6>
                             <p>$158,000</p>
                         </div>
-
                     </div>
                 </section>
-
                 <footer class="links-container">
                     <div class="link-button-container">
-                            <button class="link-btn1">
-                                <img class="facebook-btn" src="images/facebook-logo.svg">Post to Facebook</button>
-                       
-                        
-                            <button class="link-btn2">
-                                <img class="twitter-btn" src="images/twitter.svg">Tweet this Job</button>
-                        
-                        
-                            <button class="link-btn3">
-                                <img class="linkedin-btn" src="images/linkedin.svg">Post to LinkedIn</button>
-                       
+                        <button class="link-btn1">
+                            <img class="facebook-btn" src="images/facebook-logo.svg">Post to Facebook</button>
+                        <button class="link-btn2">
+                            <img class="twitter-btn" src="images/twitter.svg">Tweet this Job</button>
+                        <button class="link-btn3">
+                            <img class="linkedin-btn" src="images/linkedin.svg">Post to LinkedIn</button>
                     </div>
                     <div class="link-container-1">
-                    <h4>
-                        <img class="nav-btn" src="images/earth.svg">Link to this Job</h4>
-                    <p>Godfather ipsum dolor sit amet. Never let anyone know what you are thinking, especially Pam.</p>
-                    <div class="copy-link-container">
-                        <input type="search" id="job-search" class="side-search-input" placeholder="https://github.com/michaelyons">
-                        <button class="link-copy-btns">Copy</button>
-                    </div>
+                        <h4>
+                            <img class="nav-btn" src="images/earth.svg">Link to this Job</h4>
+                        <p>Godfather ipsum dolor sit amet. Never let anyone know what you are thinking, especially Pam.</p>
+                        <div class="copy-link-container">
+                            <input type="search" id="job-search" class="side-search-input" placeholder="https://github.com/michaelyons">
+                            <button class="link-copy-btns">Copy</button>
+                        </div>
                     </div>
                     <div class="link-container-2">
-                    <h4>
-                        <img class="nav-btn" src="images/floppy-disk-interface-symbol-for-save-option-button.svg">Use the Button Widget</h4>
-                    <p>Godfather ipsum dolor sit amet. Never let anyone know what you are thinking, especially David.</p>
-                    <div class="copy-link-container">
-                        <input type="search" id="job-search" class="side-search-input" placeholder="https://www.linkedin.com/in/mikejohnlyons/">
-                        <button class="link-copy-btns">Copy</button>
-                    </div>
+                        <h4>
+                            <img class="nav-btn" src="images/floppy-disk-interface-symbol-for-save-option-button.svg">Use the Button Widget</h4>
+                        <p>Godfather ipsum dolor sit amet. Never let anyone know what you are thinking, especially David.</p>
+                        <div class="copy-link-container">
+                            <input type="search" id="job-search" class="side-search-input" placeholder="https://www.linkedin.com/in/mikejohnlyons/">
+                            <button class="link-copy-btns">Copy</button>
+                        </div>
                     </div>
                     <div class="link-container-3">
-                    <h4>
-                        <img class="nav-btn" src="images/paper-plane.svg">Upload Resumes by Email</h4>
-                    <p>Godfather ipsum dolor sit amet. Never let anyone know what you are thinking, especially Nathaniel.</p>
-                    <input type="search" id="job-search" class="side-search-input" placeholder="mikelyons7@me.com">
+                        <h4>
+                            <img class="nav-btn" src="images/paper-plane.svg">Upload Resumes by Email</h4>
+                        <p>Godfather ipsum dolor sit amet. Never let anyone know what you are thinking, especially Nathaniel.</p>
+                        <input type="search" id="job-search" class="side-search-input" placeholder="mikelyons7@me.com">
                     </div>
                 </footer>
             </div>
         </section>
     </div>
 </body>
-
 </html>
