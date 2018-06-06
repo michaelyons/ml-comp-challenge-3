@@ -1010,10 +1010,21 @@ a {
         font-size: .75rem;
     }
 
+    .job-description-container p{
+        margin: 0 0 0 .2rem;
+    }
+
     .link-copy-btns {
         font-size: .85rem;
         padding: .75rem;
         cursor: pointer;
+    }
+
+    .link-container-3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0 2rem 2rem 3.3rem;
     }
 
     .side-search-input {
@@ -1022,6 +1033,15 @@ a {
     }
 }
 
+@media (max-width: 630px) {
+    
+    .link-container-3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0 2rem 2rem 3.3rem;
+    }
+}
 @media (max-width: 530px) {
 
     .graph-container {
@@ -1061,6 +1081,17 @@ a {
         width: 20rem;
     }
 
+    .link-container-3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0 2rem 2rem 3.3rem;
+    }
+
+    .employment-type p {
+        margin-left: 1.5rem;
+    }
+
     .job-description-container {
         font-size: .5rem;
         margin-top: 0;
@@ -1089,12 +1120,28 @@ a {
         width: 20rem;
         height: 2.5rem;
     }
+    
+    .job-title-btns {
+        display: none;
+    }
 }
 
 @media (max-width: 330px) {
 
     .job-description-container {
         margin-top: 0;
+    }
+
+    .job-description-container p{
+        margin: 0 0 0 .2rem;
+    }
+
+    .hiring-contact img{
+        margin-left: .4rem;
+    }
+
+    .job-status p {
+        margin-left: 2rem;
     }
 
     .link-btn1 {
@@ -1119,5 +1166,12 @@ a {
 
     .job-title-btns {
         display: none;
+    }
+    
+    .link-container-3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0 2rem 2rem 3.3rem;
     }
 }
