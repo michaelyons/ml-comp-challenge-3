@@ -1,7 +1,7 @@
 .page-container {
     display: flex;
-    width: 100vw;
     font-family: 'Open Sans', sans-serif;
+    width: 100vw;
 }
 
 .wrapper {
@@ -19,35 +19,35 @@
 }
 
 .name-picture-container {
+    align-items: center;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .portrait {
+    border-radius: 100%;
+    height: 4.5rem;
     margin-top: 1.5em;
     width: 4.5rem;
-    height: 4.5rem;
-    border-radius: 100%;
 }
 
 .name {
     color: #8c94a7;
-    text-align: center;
-    font-size: .8rem;
     cursor: pointer;
+    font-size: .8rem;
+    text-align: center;
 }
 
 .down-arrow {
-    width: .95em;
     height: .7em;
+    width: .95em;
 }
 
 .nav-btn {
-    width: 2em;
+    cursor: pointer;
     height: 1.75em;
     padding-right: .4em;
-    cursor: pointer;
+    width: 2em;
 }
 
 .nav-btn:hover {
@@ -61,15 +61,12 @@
 }
 
 .main-nav {
-    border-top: solid;
-    border-top-color: #2c3749;
-    border-bottom: solid;
-    border-bottom-color: #2c3749;
+    border-bottom: solid #2c3749;
+    border-top: solid #2c3749;
 }
 
 .admin-nav {
-    border-bottom: solid;
-    border-bottom-color: #2c3749;
+    border-bottom: solid #2c3749;
 }
 
 .leftside-nav-list {
@@ -78,17 +75,16 @@
 }
 
 .leftside-nav-list li:hover {
-    border-left: solid;
-    border-left-color: #15adf8;
     background-color: #30394a;
+    border-left: solid #15adf8;
     color: #e1e8ef;
 }
 
 li {
     cursor: pointer;
+    font-size: .65rem;
     padding: .5rem 0 .5rem 2rem;
     width: 100%;
-    font-size: .65rem;
 }
 
 .categories-nav li:hover {
@@ -100,70 +96,70 @@ li {
 .search-container {
     background-color: blue;
     display: flex;
-    justify-content: space-between;
     flex-direction: row;
-    width: 100%;
     height: 3.4rem; 
+    justify-content: space-between;
+    width: 100%;
 }
 
 .search-btn-left {
+    align-items: center;
     display: flex;
     justify-content: center;
-    align-items: center;
-    width: 4rem;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 1rem;
     background-image: url("images/playlist (1).svg");
+    width: 4rem;
 }
 
 .hamburger-btn {
-    width: 1.4rem;
     height: 1.4rem;
+    width: 1.4rem;
 }
 
 .search-btn-left:hover {
     background-color: #14a4fa;
-    cursor: pointer;
+    background-image: url("images/playlist (1) copy.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 1rem;
-    background-image: url("images/playlist (1) copy.svg");
+    cursor: pointer;
 }
 
 .search-input {
-    width: 100%;
-    background-image: url(/images/search.svg);
+    background-image: url("/images/search.svg");
+    background-position: 1em;
     background-repeat: no-repeat;
     background-size: 1em;
-    background-position: 1em;
     padding-left: 3rem;
+    width: 100%;
 }
 
 .search-btn-right1 {
-    display: flex;
-    justify-content: center;
     align-items: center;
-    width: 4rem;
+    background-image: url("images/add-user-button.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 1rem;
-    background-image: url("images/add-user-button.svg");
+    display: flex;
+    justify-content: center;
+    width: 4rem;
 }
 
 .search-btn-right1:hover {
     background-color: #14a4fa;
-    cursor: pointer;
+    background-image: url("images/add-user-button-hover.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 1rem;
-    background-image: url("images/add-user-button-hover.svg");
+    cursor: pointer;
 }
 
 .search-btn-right2 {
+    align-items: center;
     display: flex;
     justify-content: center;
-    align-items: center;
     width: 4rem;
     background-position: center;
     background-repeat: no-repeat;
