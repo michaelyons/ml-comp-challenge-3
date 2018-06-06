@@ -829,295 +829,295 @@ a {
 
 @media (max-width: 1160px) {
 
-.wrapper {
-    margin: 0;
-}
-    
-.nav-container {
-    display: none;
-}
+    .wrapper {
+        margin: 0;
+    }
+        
+    .nav-container {
+        display: none;
+    }
 
-.job-title-container {
-    width: 100%;
-}
+    .job-title-container {
+        width: 100%;
+    }
 
-.graph-container {
-    width: 100%;
-}
+    .graph-container {
+        width: 100%;
+    }
 
-.search-btn-left {
-    background-image: url("images/playlist.svg");
-}
+    .search-btn-left {
+        background-image: url("images/playlist.svg");
+    }
 
-.search-btn-left:hover {
-    background-image: url("images/playlist-hover-right.svg");
-}
+    .search-btn-left:hover {
+        background-image: url("images/playlist-hover-right.svg");
+    }
 }
 
 @media (max-width: 910px) {
 
-.graph-container {
-    display: flex;
-    flex-direction: column;
-    height: 32rem;
-}
+    .graph-container {
+        display: flex;
+        flex-direction: column;
+        height: 32rem;
+    }
 
-.job-title-nav li {
-    margin-right: 1.6rem;
-    font-size: .6rem;
-}
+    .job-title-nav li {
+        margin-right: 1.6rem;
+        font-size: .6rem;
+    }
 
-.bottom-container {
-    display: flex;
-    flex-direction: column;
-}
+    .bottom-container {
+        display: flex;
+        flex-direction: column;
+    }
 
-.job-description-container {
-    width: 100%;
-    margin-top: 1.5rem;
-}
+    .job-description-container {
+        width: 100%;
+        margin-top: 1.5rem;
+    }
 
-.links-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-    margin-top: 1rem;
-    height: 12rem;
-}
+    .links-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        margin-top: 1rem;
+        height: 12rem;
+    }
 
-.links-container p {
-    display: none;
-}
+    .links-container p {
+        display: none;
+    }
 
-.link-btn1 {
-    width: 10rem;
-    margin-left: .5rem;
-}   
+    .link-btn1 {
+        width: 10rem;
+        margin-left: .5rem;
+    }   
 
-.link-btn2 {
-    width: 10rem;
-    margin-left: .5rem;
-}
+    .link-btn2 {
+        width: 10rem;
+        margin-left: .5rem;
+    }
 
-.link-btn3 {
-    width: 10rem;
-    margin-left: .5rem;
-}
+    .link-btn3 {
+        width: 10rem;
+        margin-left: .5rem;
+    }
 
-.links-container h4 {
-    text-align: center;
-    font-size: .7rem;
-    margin-bottom: .5rem;
-}
+    .links-container h4 {
+        text-align: center;
+        font-size: .7rem;
+        margin-bottom: .5rem;
+    }
 
-.link-container-1 {
-    display: flex;
-    flex-direction: column;
-    margin-left: 2rem;
-}
+    .link-container-1 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 2rem;
+    }
 
-.link-container-2 {
-    display: flex;
-    flex-direction: column;
-    margin-left: 2rem;
-}
+    .link-container-2 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 2rem;
+    }
 
-.link-container-3 {
-    display: flex;
-    flex-flow: column wrap;
-    margin-left: 2rem;
-    margin-right: 2rem;
-}
+    .link-container-3 {
+        display: flex;
+        flex-flow: column wrap;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
 
-.copy-link-container {
-    display: flex;
-    flex-direction: column;
-    height: 6.5rem;
-    font-size: .75rem;
-}
+    .copy-link-container {
+        display: flex;
+        flex-direction: column;
+        height: 6.5rem;
+        font-size: .75rem;
+    }
 
-.side-search-input {
-    width: 100%;
-    padding-left: .75rem;
-    height: 2.5rem;
-    font-size: .75rem;
-}
+    .side-search-input {
+        width: 100%;
+        padding-left: .75rem;
+        height: 2.5rem;
+        font-size: .75rem;
+    }
 
-.link-copy-btns {
-    font-size: 1rem;
-    padding: .75rem;
-    cursor: pointer;
-}
+    .link-copy-btns {
+        font-size: 1rem;
+        padding: .75rem;
+        cursor: pointer;
+    }
 
-.side-search-input {
-    width: 100%;
-    padding-left: .75rem;
-    height: 2.5rem;
-}
+    .side-search-input {
+        width: 100%;
+        padding-left: .75rem;
+        height: 2.5rem;
+    }
 }
 
 @media (max-width: 730px) {
 
-.links-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 35rem;
-}
+    .links-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 35rem;
+    }
 
-.job-title-nav li {
-    display: flex;
-    justify-content: center;
-    margin-right: .5rem;
-    font-size: .6rem;
-}
+    .job-title-nav li {
+        display: flex;
+        justify-content: center;
+        margin-right: .5rem;
+        font-size: .6rem;
+    }
 
-.link-btn1 {
-    width: 25rem;
-}   
+    .link-btn1 {
+        width: 25rem;
+    }   
 
-.link-btn2 {
-    width: 25rem;
-}
+    .link-btn2 {
+        width: 25rem;
+    }
 
-.link-btn3 {
-    width: 25rem;
-}
+    .link-btn3 {
+        width: 25rem;
+    }
 
-.link-container-3 {
-    display: flex;
-    flex-direction: column;
-    margin-left: 2.75rem;
-}
+    .link-container-3 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 2.75rem;
+    }
 
-.links-container h4 {
-    text-align: center;
-    font-size: .7rem;
-    margin-bottom: .5rem;
-}
+    .links-container h4 {
+        text-align: center;
+        font-size: .7rem;
+        margin-bottom: .5rem;
+    }
 
-.copy-link-container {
-    display: flex;
-    flex-direction: column;
-    width: 25rem;
-    margin-right: 1.4rem;
-}
+    .copy-link-container {
+        display: flex;
+        flex-direction: column;
+        width: 25rem;
+        margin-right: 1.4rem;
+    }
 
-.side-search-input {
-    width: 100%;
-    height: 2.5rem;
-    font-size: .75rem;
-}
+    .side-search-input {
+        width: 100%;
+        height: 2.5rem;
+        font-size: .75rem;
+    }
 
-.link-copy-btns {
-    font-size: .85rem;
-    padding: .75rem;
-    cursor: pointer;
-}
+    .link-copy-btns {
+        font-size: .85rem;
+        padding: .75rem;
+        cursor: pointer;
+    }
 
-.side-search-input {
-    width: 25rem;
-    height: 2.5rem;
-}
+    .side-search-input {
+        width: 25rem;
+        height: 2.5rem;
+    }
 }
 
 @media (max-width: 530px) {
 
-.graph-container {
-    display: none;
-}
+    .graph-container {
+        display: none;
+    }
 
-.job-title-nav {
-    display: none;
-}
+    .job-title-nav {
+        display: none;
+    }
 
-.alt-job-select-menu {
-    display: flex;
-    margin: 0 0 1rem 2rem;
-    width: 8rem;
-    height: 2.5rem;
-    cursor: pointer;
-}
+    .alt-job-select-menu {
+        display: flex;
+        margin: 0 0 1rem 2rem;
+        width: 8rem;
+        height: 2.5rem;
+        cursor: pointer;
+    }
 
-.divide-btn {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
+    .divide-btn {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
 
-.divide-line {
-    transform:rotate(180deg);
-}
+    .divide-line {
+        transform:rotate(180deg);
+    }
 
-.link-btn1 {
-    width: 20rem;
-}   
+    .link-btn1 {
+        width: 20rem;
+    }   
 
-.link-btn2 {
-    width: 20rem;
-}
+    .link-btn2 {
+        width: 20rem;
+    }
 
-.link-btn3 {
-    width: 20rem;
-}
+    .link-btn3 {
+        width: 20rem;
+    }
 
-.job-description-container {
-    font-size: .5rem;
-    margin-top: 0;
-}
+    .job-description-container {
+        font-size: .5rem;
+        margin-top: 0;
+    }
 
-.copy-link-container {
-    display: flex;
-    flex-direction: column;
-    width: 20rem;
-    margin-right: 1.4rem;
-}
+    .copy-link-container {
+        display: flex;
+        flex-direction: column;
+        width: 20rem;
+        margin-right: 1.4rem;
+    }
 
-.side-search-input {
-    width: 100%;
-    height: 2.5rem;
-    font-size: .75rem;
-}
+    .side-search-input {
+        width: 100%;
+        height: 2.5rem;
+        font-size: .75rem;
+    }
 
-.link-copy-btns {
-    font-size: .85rem;
-    padding: .75rem;
-    cursor: pointer;
-}
+    .link-copy-btns {
+        font-size: .85rem;
+        padding: .75rem;
+        cursor: pointer;
+    }
 
-.side-search-input {
-    width: 20rem;
-    height: 2.5rem;
-}
+    .side-search-input {
+        width: 20rem;
+        height: 2.5rem;
+    }
 }
 
 @media (max-width: 330px) {
 
-.job-description-container {
-    margin-top: 0;
-}
+    .job-description-container {
+        margin-top: 0;
+    }
 
-.link-btn1 {
-    width: 15rem;
-}   
-    
-.link-btn2 {
-    width: 15rem;
-}
-    
-.link-btn3 {
-    width: 15rem;
-}
-    
-.copy-link-container {
-    width: 15rem;
-}
+    .link-btn1 {
+        width: 15rem;
+    }   
+        
+    .link-btn2 {
+        width: 15rem;
+    }
+        
+    .link-btn3 {
+        width: 15rem;
+    }
+        
+    .copy-link-container {
+        width: 15rem;
+    }
 
-.side-search-input {
-    width: 15rem;
-}
+    .side-search-input {
+        width: 15rem;
+    }
 
-.job-title-btns {
-    display: none;
-}
+    .job-title-btns {
+        display: none;
+    }
 }
