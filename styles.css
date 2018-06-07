@@ -951,6 +951,10 @@ a {
         padding-left: .75rem;
         height: 2.5rem;
     }
+
+    .job-description-info p{
+        font-size: .9rem;
+    }
 }
 
 @media (max-width: 730px) {
@@ -1006,8 +1010,9 @@ a {
         font-size: .75rem;
     }
 
-    .job-description-container p{
-        margin: 0 0 0 .2rem;
+    .job-description-container {
+        width: 100%;
+        margin-top: 1.5rem;
     }
 
     .link-copy-btns {
