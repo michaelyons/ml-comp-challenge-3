@@ -870,7 +870,6 @@ a {
 
     .job-description-container {
         width: 100%;
-        margin-top: 1.5rem;
     }
 
     .links-container {
@@ -954,6 +953,16 @@ a {
 
     .job-description-info p{
         font-size: .9rem;
+    }
+
+    .jobtitle-and-edit {
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+
+    .job-info-container {
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
     }
 }
 
