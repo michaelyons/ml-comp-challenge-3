@@ -848,6 +848,7 @@ a {
     .search-btn-left:hover {
         background-image: url("images/playlist-hover-right.svg");
     }
+    
 }
 
 @media (max-width: 910px) {
