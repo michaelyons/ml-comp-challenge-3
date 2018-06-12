@@ -1103,9 +1103,13 @@ a {
         margin-left: 1.5rem;
     }
 
-    .job-description-container {
-        font-size: .5rem;
+    .job-description-container p{
+        font-size: .7rem;
         margin-top: 0;
+    }
+
+    .job-description-info p {
+        margin: 0 0 0 .5rem;
     }
 
     .copy-link-container {
@@ -1145,6 +1149,7 @@ a {
 
     .job-description-container p{
         margin: 0 0 0 .2rem;
+        font-size: .7rem;
     }
 
     .hiring-contact img{
@@ -1184,5 +1189,9 @@ a {
         flex-direction: row;
         justify-content: center;
         margin: 0 2rem 2rem 3.3rem;
+    }
+
+    .job-description-info p {
+        margin: 0 0 0 .5rem;
     }
 }
