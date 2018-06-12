@@ -16,7 +16,7 @@ You may NOT take liberties with the layout, but your creative license includes:
  palette. We highly encourage you to visit sites like: material palette or coolors or color-hex
  
 ------------------------------------------------------------
-### My Static Composition 2
+### My Static Composition 3
 
 My project is my attempt to mimic the given static comp as close as possible. I used the flexbox technique for the overarching structure and then more flexbox to structure content within each individual section. I spent over 30 hours making this composition and have over 130 github commits.
 
