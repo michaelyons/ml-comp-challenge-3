@@ -18,7 +18,8 @@ You may NOT take liberties with the layout, but your creative license includes:
 ------------------------------------------------------------
 ### My Static Composition 3
 
-My project is my attempt to mimic the given static comp as close as possible. I used the flexbox technique for the overarching structure and then more flexbox to structure content within each individual section. I spent over 30 hours making this composition and have over 130 github commits.
+My project is my attempt to mimic the given static comp as close as possible. I used the flexbox technique for the overarching structure and then more flexbox to structure content within each individual section.
 
-![alt text](https://github.com/michaelyons/ml-comp-challenge-3/blob/master/final-static.png)
 ![alt text](https://github.com/michaelyons/ml-comp-challenge-3/blob/master/Static-Comp-3.png)
+![alt text](https://github.com/michaelyons/ml-comp-challenge-3/blob/master/final-static.png)
+
